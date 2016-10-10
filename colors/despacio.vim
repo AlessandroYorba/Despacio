@@ -12,6 +12,70 @@
 " Script URL:   https://github.com/AlessandroYorba/Despacio
 " License:      MIT
 
+"================================================================================
+"COLOR PALETTE:
+"================================================================================
+
+"White:
+"================================================================================
+"Cloud          254      #e4e4e4      http://www.colorhexa.com/e4e4e4
+
+"Black:
+"================================================================================
+"Midnight       233      #121212      http://www.colorhexa.com/121212
+
+"Gray:
+"================================================================================
+"Sunset         235      #262626      http://www.colorhexa.com/262626
+"Day            236      #303030      http://www.colorhexa.com/303030
+"Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
+"Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
+"Fog            241      #626262      http://www.colorhexa.com/626262
+"Ash            243      #767676      http://www.colorhexa.com/767676
+"Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
+
+"Red:
+"================================================================================
+"Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
+"Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
+
+"Green:
+"================================================================================
+"Marsh          108      #87af87      http://www.colorhexa.com/87af87
+
+"Yellow:
+"================================================================================
+"Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
+"Flats          144      #afaf87      http://www.colorhexa.com/afaf87
+"Linen          222      #ffdf87      http://www.colorhexa.com/ffdf87
+"Sand           223      #ffdfaf      http://www.colorhexa.com/ffdfaf
+"Firefly        230      #ffffdf      http://www.colorhexa.com/ffffdf
+
+"Cyan:
+"================================================================================
+"Lilac          60       #5f5f87      http://www.colorhexa.com/5f5f87
+"Lake           66       #5f8787      http://www.colorhexa.com/5f8787
+"Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
+
+"Blue:
+"================================================================================
+"Heather        103      #8787af      http://www.colorhexa.com/8787af
+
+"Purple:
+"================================================================================
+"Lavender       146      #afafd7      http://www.colorhexa.com/afafd7
+
+"Orange:
+"================================================================================
+"Bluebells      130     #af5f00       http://www.colorhexa.com/af5f00
+"Oak            137     #af875f       http://www.colorhexa.com/af875f
+"Cider          166     #d75f00       http://www.colorhexa.com/d75f00
+"Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+"Pomegranate    209     #ff875f       http://www.colorhexa.com/ff875f
+"Yam            215     #ffaf5f       http://www.colorhexa.com/ffaf5f
+"Sorbet         216     #ffaf87       http://www.colorhexa.com/ffaf87
+
+
 set background=dark
 
 highlight clear
@@ -74,7 +138,6 @@ hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      gu
 hi Identifier        ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi Function          ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi StorageClass      ctermfg=222        guifg=#ffdf87       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
-"hi Number            ctermfg=130        guifg=#af5f00       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 
 
 " Language Constructs:
