@@ -93,7 +93,7 @@ hi CursorLine       ctermfg=NONE       guifg=NONE          ctermbg=237       gui
 
 "TODO
 " Number Column:
-hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787       cterm=NONE     gui=NONE
+hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=235        guibg=#262626       cterm=NONE     gui=NONE
 hi FoldColumn       ctermfg=109        guifg=#87afaf       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
 hi SignColumn       ctermfg=108        guifg=#87af87       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
 
@@ -125,11 +125,11 @@ hi NonText           ctermfg=239        guifg=#4e4e4e       ctermbg=NONE      gu
 hi SpecialKey        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi WarningMsg        ctermfg=130        guifg=#af5f00       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
-hi MatchParen        ctermfg=233        guifg=#121212       ctermbg=245       guibg=#8a8a8a      cterm=NONE    gui=NONE
+hi MatchParen        ctermfg=187        guifg=#dfaf5f       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Visual            ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=137       guibg=#d75f5f      cterm=italic  gui=italic
 hi Error             ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
-hi ErrorMsg          ctermfg=131        guifg=#af5f5f       ctermbg=235       guibg=#262626      cterm=reverse gui=reverse
+hi ErrorMsg          ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
 
 
 " Variable Types:
