@@ -29,11 +29,11 @@ Download the .zip and copy `despacio.vim` to `~/.vim/colors` (on Windows `<your-
 Future Updates
 --------------
 This colorscheme is a pre-release. Newever commits and versions will include:
-• Darker UI Versions ( Sunset, Twilight, Midnight, Pitch )
-• Option to remove CursorLine Background color
-• Option to have Matching Parens underlined
-• Remove Background Color for terminal with background images or transparency
-• Xresources, iTerm, terminal.app themes and colors
+* Darker UI Versions ( Sunset, Twilight, Midnight, Pitch )
+* Option to remove CursorLine Background color
+* Option to have Matching Parens underlined
+* Remove Background Color for terminal with background images or transparency
+* Xresources, iTerm, terminal.app themes and colors
 
 Callbacks 
 -------
