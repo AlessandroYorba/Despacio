@@ -141,7 +141,7 @@ hi StorageClass      ctermfg=222        guifg=#ffdf87       ctermbg=NONE      gu
 
 
 " Language Constructs:
-hi Label             ctermfg=215        guifg=#ffaf5f       ctermbg=NONE      guibg=NONE        cterm=NONE     gui=NONE
+hi Label             ctermfg=180        guifg=#dfaf87       ctermbg=NONE      guibg=NONE         cterm=NONE   gui=NONE
 hi Statement         ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE        cterm=NONE     gui=NONE
 hi Operator          ctermfg=222        guifg=#ffdf87       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi Comment           ctermfg=241        guifg=#626262       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
