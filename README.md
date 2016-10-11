@@ -26,6 +26,14 @@ There are a few ways to install despacio. The first option is by using your favo
 ###### Download Option
 Download the .zip and copy `despacio.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
-Related 
+Future Updates
+--------------
+This colorscheme is a pre-release. Newever commits and versions will include:
+• Darker UI Versions ( Sunset, Twilight, Midnight, Pitch )
+• Option to remove CursorLine Background color
+• Option to have Matching Parens underlined
+• Remove Background Color for terminal image backgrounds or transparency
+
+Callbacks 
 -------
-Please note that Despacio is brand new and it's subject to change. Feel free to drop any feedback, suggestions or issues that you'd like to share. Also, if you're a fiend for vim colorschemes please check out my other themes [Alduin](https://github.com/AlessandroYorba/Alduin) and [Sierra](https://github.com/AlessandroYorba/Sierra)
+Despacio was inspired by KKPMW's awesome colorscheme [Moonshine](https://github.com/KKPMW/moonshine-vim), and jpo's [Railscasts](https://github.com/jpo/vim-railscasts-theme) and jnurmine's [Zenburn](https://github.com/jnurmine/Zenburn). 
