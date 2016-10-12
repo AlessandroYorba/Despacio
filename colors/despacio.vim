@@ -105,7 +105,6 @@ hi VertSplit        ctermfg=237         guifg=#3a3a3a       ctermbg=235       gu
 hi TabLine          ctermfg=241         guifg=#626262       ctermbg=235       guibg=#262626      cterm=NONE     gui=NONE
 hi TabLineSel       ctermfg=187         guifg=#dfdfaf       ctermbg=235       guibg=#262626      cterm=NONE     gui=NONE
 
-"TODO
 " File Navigation:
 hi Directory        ctermfg=216         guifg=#ffaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
@@ -159,10 +158,10 @@ hi htmlArg           ctermfg=166        guifg=#d75f00        ctermbg=NONE     gu
 
 
 " Diff:
-hi DiffAdd           ctermfg=234        guifg=#1c1c1c        ctermbg=146      guibg=#afafd7      cterm=NONE     gui=NONE
-hi DiffChange        ctermfg=234        guifg=#1c1c1c        ctermbg=60       guibg=#5f5f87      cterm=NONE     gui=NONE
-hi DiffDelete        ctermfg=234        guifg=#1c1c1c        ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
-hi DiffText          ctermfg=234        guifg=#1c1c1c        ctermbg=103      guibg=#8787af      cterm=NONE     gui=NONE
+hi DiffAdd           ctermfg=234        guifg=#1c1c1c        ctermbg=223      guibg=#ffdfaf      cterm=NONE     gui=NONE
+hi DiffChange        ctermfg=234        guifg=#1c1c1c        ctermbg=137       guibg=#af875f     cterm=NONE     gui=NONE
+hi DiffText          ctermfg=234        guifg=#1c1c1c        ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
+hi DiffDelete        ctermfg=187        guifg=#dfdfaf        ctermbg=131      guibg=#af5f5f      cterm=NONE     gui=NONE
 
 " Completion Menu:
 hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
