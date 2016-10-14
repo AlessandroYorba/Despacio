@@ -38,10 +38,12 @@
 "================================================================================
 "Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
 "Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
+"Cherry         196      #ff0000      http://www.colorhexa.com/ff0000
 
 "Green:
 "================================================================================
 "Marsh          108      #87af87      http://www.colorhexa.com/87af87
+"Fern           65       #5f875f      http://www.colorhexa.com/5f875f
 
 "Yellow:
 "================================================================================
@@ -56,6 +58,7 @@
 "Lilac          60       #5f5f87      http://www.colorhexa.com/5f5f87
 "Lake           66       #5f8787      http://www.colorhexa.com/5f8787
 "Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
+"Robin          111      #87afff     http://www.colorhexa.com/87afff
 
 "Blue:
 "================================================================================
@@ -71,6 +74,7 @@
 "Oak            137     #af875f       http://www.colorhexa.com/af875f
 "Cider          166     #d75f00       http://www.colorhexa.com/d75f00
 "Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+"Honeystrand    208     #ff8700       http://www.colorhexa.com/ff8700
 "Pomegranate    209     #ff875f       http://www.colorhexa.com/ff875f
 "Yam            215     #ffaf5f       http://www.colorhexa.com/ffaf5f
 "Sorbet         216     #ffaf87       http://www.colorhexa.com/ffaf87
@@ -126,7 +130,7 @@ hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      gu
 hi WarningMsg        ctermfg=130        guifg=#af5f00       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi MatchParen        ctermfg=187        guifg=#dfaf5f       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Visual            ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
-hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=137       guibg=#d75f5f      cterm=italic  gui=italic
+hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=236       guibg=#303030      cterm=italic  gui=italic
 hi Error             ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
 hi ErrorMsg          ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
 
@@ -171,9 +175,8 @@ hi PmenuThumb        ctermfg=235        guifg=#262626        ctermbg=235      gu
 
 
 " Spelling:
-"FIXME
-hi SpellBad          ctermfg=131        guifg=#af5f5f        ctermbg=NONE      guibg=NONE    cterm=NONE    gui=NONE
-"TODO
-"hi SpellCap
-"hi SpellLocal
-"hi SpellRare
+"temp colors takens from sierra
+hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellLocal       ctermfg=65      guifg=#5f875f     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
