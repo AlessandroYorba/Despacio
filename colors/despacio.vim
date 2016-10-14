@@ -131,8 +131,9 @@ hi WarningMsg        ctermfg=130        guifg=#af5f00       ctermbg=NONE      gu
 hi MatchParen        ctermfg=187        guifg=#dfaf5f       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Visual            ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=236       guibg=#303030      cterm=italic  gui=italic
-hi Error             ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
-hi ErrorMsg          ctermfg=131        guifg=#af5f5f       ctermbg=187       guibg=#dfdfaf      cterm=reverse gui=reverse
+hi Error             ctermfg=196        guifg=#ff0000       ctermbg=NONE       guibg=NONE      cterm=NONE gui=NONE
+hi ErrorMsg          ctermfg=196        guifg=#ff0000       ctermbg=NONE       guibg=NONE      cterm=NONE gui=NONE 
+
 
 
 " Variable Types:
