@@ -91,7 +91,7 @@ endif
 let g:colors_name="despacio"
 
 hi Normal           ctermfg=254        guifg=#e4e4e4       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
-hi LineNr           ctermfg=239        guifg=#4e4e4e       ctermbg=235       guibg=#262626       cterm=NONE     gui=NONE
+hi LineNr           ctermfg=241        guifg=#626262       ctermbg=235       guibg=#262626       cterm=NONE     gui=NONE
 hi CursorLineNR     ctermfg=187        guifg=#dfdfaf       ctermbg=235       guibg=#262626       cterm=NONE     gui=NONE
 hi CursorLine       ctermfg=NONE       guifg=NONE          ctermbg=237       guibg=#3a3a3a       cterm=NONE     gui=NONE
 
