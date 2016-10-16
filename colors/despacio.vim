@@ -128,7 +128,7 @@ hi NonText           ctermfg=239        guifg=#4e4e4e       ctermbg=NONE      gu
 hi SpecialKey        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi WarningMsg        ctermfg=130        guifg=#af5f00       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
-hi MatchParen        ctermfg=187        guifg=#dfaf5f       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
+hi MatchParen        ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Visual            ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=236       guibg=#303030      cterm=italic  gui=italic
 hi Error             ctermfg=196        guifg=#ff0000       ctermbg=NONE       guibg=NONE      cterm=NONE gui=NONE
