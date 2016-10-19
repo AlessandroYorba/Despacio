@@ -22,7 +22,10 @@
 
 "Black:
 "================================================================================
+"Abyss          16       #000000      http://www.colorhexa.com/000000
+"Pitch          232      #080808      http://www.colorhexa.com/080808
 "Midnight       233      #121212      http://www.colorhexa.com/121212
+"Twilight       234      #1c1c1c      http://www.colorhexa.com/1c1c1c
 
 "Gray:
 "================================================================================
@@ -87,15 +90,25 @@ if exists("syntax_on")
     syntax reset
 endif
 
+"================================================================================
+" SET DEFAULT PARAMETERS:
+"================================================================================
 
 let g:colors_name="despacio"
+
+if !exists("g:despacio_Twilight")
+    let g:despacio_Twilight = 0
+endif
+
+"================================================================================
+" DAY:
+"================================================================================
 
 hi Normal           ctermfg=254        guifg=#e4e4e4       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
 hi LineNr           ctermfg=241        guifg=#626262       ctermbg=235       guibg=#262626       cterm=NONE     gui=NONE
 hi CursorLineNR     ctermfg=187        guifg=#dfdfaf       ctermbg=235       guibg=#262626       cterm=NONE     gui=NONE
 hi CursorLine       ctermfg=NONE       guifg=NONE          ctermbg=237       guibg=#3a3a3a       cterm=NONE     gui=NONE
 
-"TODO
 " Number Column:
 hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=235        guibg=#262626       cterm=NONE     gui=NONE
 hi FoldColumn       ctermfg=109        guifg=#87afaf       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
@@ -176,8 +189,44 @@ hi PmenuThumb        ctermfg=235        guifg=#262626        ctermbg=235      gu
 
 
 " Spelling:
-"temp colors takens from sierra
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellLocal       ctermfg=65      guifg=#5f875f     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
+
+"================================================================================
+" TWILIGHT:
+"================================================================================
+if g:despacio_Twilight
+    " Editor Settings:
+    hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=235        guifg=#262626     ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+
+    " Prompt Status:
+    hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Language Constructs:
+    hi Comment          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Completion Menu:
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=233        guifg=#121212        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi PmenuThumb        ctermfg=233        guifg=#121212        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+end

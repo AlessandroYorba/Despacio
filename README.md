@@ -26,12 +26,22 @@ There are a few ways to install despacio. The first option is by using your favo
 ###### Download Option
 Download the .zip and copy `despacio.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
-TODO: Improvements currently in development
+Despacio Settings
+---------------
+You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before declaring `colorscheme despacio`.
+
+| Description                        | Add to .vimrc                            | Screenshot                                                                |
+|------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
+| gray background                    | `colorscheme despacio`                   | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19237682/069b9cb0-8eb3-11e6-8c2f-aa56b3fc305a.png)|
+| dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512370/6ad70324-95a0-11e6-87a5-783e174fd3c8.png)|
+
+
+TODO: Improvements currently in development / strikeouts options are now available 
 -----
-* New Settings for Darker UI Versions ( Sunset, Twilight, Midnight, Pitch )
+* New Settings for Darker UI Versions ( Sunset, ~~Twilight~~, Midnight, Pitch )
 * Option to remove CursorLine Background color
 * Option to have Matching Parens underlined
-* ~~Xresources, iTerm, terminal.app themes and colors~~
+* Xresources, iTerm, terminal.app themes ( Sunset, ~~Twilight~~, Midnight, Pitch )
 
 Callbacks 
 -------
