@@ -38,10 +38,16 @@ You can activate them by adding each of the following variables to your .vimrc. 
 
 TODO: Improvements currently in development / strikeouts options are now available 
 -----
-* New Settings for Darker UI Versions ( Sunset, ~~Twilight~~, Midnight, Pitch )
+* New Darker UI Versions Sunset Mode
+* Xresources, iTerm, terminal.app themes Sunset Mode
+* ~~New Darker UI Versions Twilight Mode~~ Done!
+* ~~Xresources, iTerm, terminal.app themes Twilight Mode~~ Done!
+* New Darker UI Versions Midnight Mode
+* Xresources, iTerm, terminal.app themes Midnight Mode
+* New Darker UI Versions Pitch Mode
+* Xresources, iTerm, terminal.app themes Pitch Mode
 * Option to remove CursorLine Background color
 * Option to have Matching Parens underlined
-* Xresources, iTerm, terminal.app themes ( Sunset, ~~Twilight~~, Midnight, Pitch )
 
 Callbacks 
 -------
