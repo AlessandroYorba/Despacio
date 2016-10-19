@@ -33,7 +33,7 @@ You can activate them by adding each of the following variables to your .vimrc. 
 | Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
 | gray background                    | `colorscheme despacio`                   | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19237682/069b9cb0-8eb3-11e6-8c2f-aa56b3fc305a.png)|
-| dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512370/6ad70324-95a0-11e6-87a5-783e174fd3c8.png)|
+| dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512526/32ad9c0a-95a1-11e6-846a-45fc5a123ae0.png)|
 
 
 TODO: Improvements currently in development / strikeouts options are now available 
