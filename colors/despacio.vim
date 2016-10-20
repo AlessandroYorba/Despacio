@@ -40,6 +40,7 @@
 "Red:
 "================================================================================
 "Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
+"Scarlet        160      #d70000      http://www.colorhexa.com/d70000
 "Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
 "Cherry         196      #ff0000      http://www.colorhexa.com/ff0000
 
@@ -143,9 +144,9 @@ hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      gu
 hi WarningMsg        ctermfg=130        guifg=#af5f00       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE
 hi MatchParen        ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
 hi Visual            ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE    gui=NONE
-hi Todo              ctermfg=187        guifg=#dfdfaf       ctermbg=236       guibg=#303030      cterm=italic  gui=italic
-hi Error             ctermfg=196        guifg=#ff0000       ctermbg=NONE       guibg=NONE      cterm=NONE gui=NONE
-hi ErrorMsg          ctermfg=196        guifg=#ff0000       ctermbg=NONE       guibg=NONE      cterm=NONE gui=NONE 
+hi Todo              ctermfg=209        guifg=#ff875f       ctermbg=236       guibg=#303030      cterm=reverse  gui=reverse
+hi Error             ctermfg=160        guifg=#d70000       ctermbg=233       guibg=#121212      cterm=reverse gui=reverse
+hi ErrorMsg          ctermfg=160        guifg=#d70000       ctermbg=NONE      guibg=NONE         cterm=NONE    gui=NONE 
 
 
 
