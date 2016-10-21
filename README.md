@@ -33,15 +33,16 @@ You can activate them by adding each of the following variables to your .vimrc. 
 | Description                        | Add to .vimrc                            | Screenshot                                                                |
 |------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
 | gray background                    | `colorscheme despacio`                   | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19237682/069b9cb0-8eb3-11e6-8c2f-aa56b3fc305a.png)|
+| medium gray background             | `let g:despacio_Sunset = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19591387/9e553d24-972b-11e6-98ac-f9d4269d7807.png)|
 | dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512526/32ad9c0a-95a1-11e6-846a-45fc5a123ae0.png)|
 
 
 TODO: Improvements currently in development / strikeouts options are now available 
 -----
-* New Darker UI Versions Sunset Mode
-* Xresources, iTerm, terminal.app themes Sunset Mode
-* ~~New Darker UI Versions Twilight Mode~~ Done!
-* ~~Xresources, iTerm, terminal.app themes Twilight Mode~~ Done!
+* ~~New Darker UI Versions Sunset Mode~~
+* ~~Xresources, iTerm, terminal.app themes Sunset Mode~~
+* ~~New Darker UI Versions Twilight Mode~~ 
+* ~~Xresources, iTerm, terminal.app themes Twilight Mode~~
 * New Darker UI Versions Midnight Mode
 * Xresources, iTerm, terminal.app themes Midnight Mode
 * New Darker UI Versions Pitch Mode

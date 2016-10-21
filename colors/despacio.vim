@@ -29,10 +29,12 @@
 
 "Gray:
 "================================================================================
+"Stars          188      #dfdfdf      http://www.colorhexa.com/dfdfdf
 "Sunset         235      #262626      http://www.colorhexa.com/262626
 "Day            236      #303030      http://www.colorhexa.com/303030
 "Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
 "Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
+"Graphite       240      #585858      http://www.colorhexa.com/585858
 "Fog            241      #626262      http://www.colorhexa.com/626262
 "Ash            243      #767676      http://www.colorhexa.com/767676
 "Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
@@ -97,6 +99,10 @@ endif
 
 let g:colors_name="despacio"
 
+if !exists("g:despacio_Sunset")
+    let g:despacio_Sunset = 0
+endif
+
 if !exists("g:despacio_Twilight")
     let g:despacio_Twilight = 0
 endif
@@ -111,9 +117,9 @@ hi CursorLineNR     ctermfg=187        guifg=#dfdfaf       ctermbg=235       gui
 hi CursorLine       ctermfg=NONE       guifg=NONE          ctermbg=237       guibg=#3a3a3a       cterm=NONE     gui=NONE
 
 " Number Column:
-hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=235        guibg=#262626       cterm=NONE     gui=NONE
-hi FoldColumn       ctermfg=109        guifg=#87afaf       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
-hi SignColumn       ctermfg=108        guifg=#87af87       ctermbg=236       guibg=#303030       cterm=NONE     gui=NONE
+hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=235        guibg=#262626      cterm=NONE     gui=NONE
+hi FoldColumn       ctermfg=109        guifg=#87afaf       ctermbg=236        guibg=#303030      cterm=NONE     gui=NONE
+hi SignColumn       ctermfg=108        guifg=#87af87       ctermbg=236        guibg=#303030      cterm=NONE     gui=NONE
 
 
 " WindowTab Delimiters:
@@ -196,11 +202,48 @@ hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NON
 hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 
 "================================================================================
+" SUNSET:
+"================================================================================
+if g:despacio_Sunset
+    " Editor Settings:
+    hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+    hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=241        guifg=#626262     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
+
+    " Prompt Status:
+    hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Language Constructs:
+    hi Comment          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Completion Menu:
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=234        guifg=#1c1c1c        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi PmenuThumb        ctermfg=234        guifg=#1c1c1c        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+end
+
+"================================================================================
 " TWILIGHT:
 "================================================================================
 if g:despacio_Twilight
     " Editor Settings:
-    hi Normal           ctermfg=254        guifg=#e4e4e4     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi LineNr           ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -221,7 +264,7 @@ if g:despacio_Twilight
     hi StatusLineNC     ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Visual Aid:
-    hi NonText          ctermfg=237        guifg=#3a3a3a     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
 
     " Language Constructs:
     hi Comment          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
