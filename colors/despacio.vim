@@ -33,6 +33,7 @@
 "Sunset         235      #262626      http://www.colorhexa.com/262626
 "Day            236      #303030      http://www.colorhexa.com/303030
 "Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
+"Ash            238      #444444      http://www.colorhexa.com/444444
 "Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
 "Graphite       240      #585858      http://www.colorhexa.com/585858
 "Fog            241      #626262      http://www.colorhexa.com/626262
@@ -105,6 +106,10 @@ endif
 
 if !exists("g:despacio_Twilight")
     let g:despacio_Twilight = 0
+endif
+
+if !exists("g:despacio_Midnight") 
+    let g:despacio_Midnight = 0
 endif
 
 "================================================================================
@@ -273,4 +278,41 @@ if g:despacio_Twilight
     hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=233        guifg=#121212        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=233        guifg=#121212        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+end
+
+"================================================================================
+" MIDNIGHT:
+"================================================================================
+if g:despacio_Midnight
+    " Editor Settings:
+    hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=234        guifg=#1c1c1c     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
+
+    " Prompt Status:
+    hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText          ctermfg=238        guifg=#444444     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Language Constructs:
+    hi Comment          ctermfg=238        guifg=#444444     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+
+    " Completion Menu:
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=232        guifg=#080808        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi PmenuThumb        ctermfg=232        guifg=#080808        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 end

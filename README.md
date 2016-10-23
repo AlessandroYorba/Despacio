@@ -35,6 +35,7 @@ You can activate them by adding each of the following variables to your .vimrc. 
 | gray background                    | `colorscheme despacio`                   | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19303285/e8230c8a-901c-11e6-802b-151301c7dd3d.png)|
 | medium gray background             | `let g:despacio_Sunset = 1`              | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19610755/fe22d3b2-9792-11e6-9aac-3294fe790f31.png)|
 | dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512526/32ad9c0a-95a1-11e6-846a-45fc5a123ae0.png)|
+| almost black background            | `let g:despacio_Midnight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19623559/5955b192-9882-11e6-9222-8a5181834ca1.png)|
 
 
 TODO: Improvements currently in development / strikeouts options are now available 
