@@ -1,7 +1,7 @@
 Despacio
 ------
 
-###### Despacio version 2.0.0 
+###### Despacio version 3.0.0 
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19237682/069b9cb0-8eb3-11e6-8c2f-aa56b3fc305a.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19237746/4c82a1ce-8eb3-11e6-97c2-a347095391df.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19255605/9065354e-8f14-11e6-85a6-7a38ef8c366b.png)
@@ -44,8 +44,8 @@ TODO: Improvements currently in development / strikeouts options are now availab
 * ~~Xresources, iTerm, terminal.app themes Sunset Mode~~
 * ~~New Darker UI Versions Twilight Mode~~ 
 * ~~Xresources, iTerm, terminal.app themes Twilight Mode~~
-* New Darker UI Versions Midnight Mode
-* Xresources, iTerm, terminal.app themes Midnight Mode
+* ~~New Darker UI Versions Midnight Mode~~
+* ~~Xresources, iTerm, terminal.app themes Midnight Mode~~
 * New Darker UI Versions Pitch Mode
 * Xresources, iTerm, terminal.app themes Pitch Mode
 * Option to remove CursorLine Background color
