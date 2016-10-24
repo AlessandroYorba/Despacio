@@ -112,6 +112,10 @@ if !exists("g:despacio_Midnight")
     let g:despacio_Midnight = 0
 endif
 
+if !exists("g:despacio_Pitch")
+    let g:despacio_Pitch = 0
+endif
+
 "================================================================================
 " DAY:
 "================================================================================
@@ -221,7 +225,7 @@ if g:despacio_Sunset
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit        ctermfg=236        guifg=#303030     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=241        guifg=#626262     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
@@ -230,9 +234,6 @@ if g:despacio_Sunset
     " Prompt Status:
     hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi StatusLineNC     ctermfg=240        guifg=#585858     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-
-    " Visual Aid:
-    hi NonText          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
 
     " Language Constructs:
     hi Comment          ctermfg=240        guifg=#585858     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
@@ -249,7 +250,8 @@ end
 if g:despacio_Twilight
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi LineNr           ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=241        guifg=#626262       ctermbg=233       guibg=#121212       cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=241        guifg=#626262     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
@@ -258,21 +260,15 @@ if g:despacio_Twilight
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit        ctermfg=235        guifg=#262626     ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
+    hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi TabLine          ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=241        guifg=#626262     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
     hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
 
     " Prompt Status:
     hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi StatusLineNC     ctermfg=239        guifg=#4e4e4e     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-
-    " Visual Aid:
-    hi NonText          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-
-    " Language Constructs:
-    hi Comment          ctermfg=239        guifg=#4e4e4e     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=241        guifg=#626262     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -286,7 +282,7 @@ end
 if g:despacio_Midnight
     " Editor Settings:
     hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi LineNr           ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=241        guifg=#626262     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
@@ -295,24 +291,49 @@ if g:despacio_Midnight
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit        ctermfg=234        guifg=#1c1c1c     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi TabLine          ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=241        guifg=#626262     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
     hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
 
     " Prompt Status:
     hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi StatusLineNC     ctermfg=238        guifg=#444444     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-
-    " Visual Aid:
-    hi NonText          ctermfg=238        guifg=#444444     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-
-    " Language Constructs:
-    hi Comment          ctermfg=238        guifg=#444444     ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=241        guifg=#626262     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " Completion Menu:
     hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=232        guifg=#080808        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=232        guifg=#080808        ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+end
+
+"================================================================================
+" PITCH:
+"================================================================================
+if g:despacio_Pitch
+    " Editor Settings:
+    hi Normal           ctermfg=188        guifg=#dfdfdf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi LineNr           ctermfg=241        guifg=#626262     ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi CursorLine       ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi CursorLineNR     ctermfg=187        guifg=#dfdfaf     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=237        guifg=#3a3a3a     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi ColorColumn      ctermfg=NONE       guifg=NONE        ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi TabLineFill      ctermfg=NONE       guifg=NONE        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi TabLine          ctermfg=241        guifg=#626262     ctermbg=16      guibg=#000000      cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=187        guifg=#dfdfaf     ctermbg=16      guibg=#000000      cterm=NONE     gui=NONE
+
+    " Prompt Status:
+    hi StatusLine       ctermfg=187        guifg=#dfdfaf     ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLineNC     ctermfg=241        guifg=#626262     ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+
+    " Completion Menu:
+    hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi PmenuSbar         ctermfg=16        guifg=#000000        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+    hi PmenuThumb        ctermfg=16        guifg=#000000        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
 end
