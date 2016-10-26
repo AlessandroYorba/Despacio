@@ -37,6 +37,7 @@ You can activate them by adding each of the following variables to your .vimrc. 
 | dark gray background               | `let g:despacio_Twilight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19512526/32ad9c0a-95a1-11e6-846a-45fc5a123ae0.png)|
 | almost black background            | `let g:despacio_Midnight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19623559/5955b192-9882-11e6-9222-8a5181834ca1.png)|
 | black background                   | `let g:despacio_Pitch = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19656829/64fe71a0-99d6-11e6-8c4c-404d3ee4ee88.png)|
+| Changes theme depending on time of day | `let g:despacio_Campfire = 1`        | [Screenshot](https://github.com/AlessandroYorba/Despacio/issues/1#issuecomment-255882860)|
 
 
 TODO: Improvements currently in development / strikeouts options are now available 
@@ -51,7 +52,7 @@ TODO: Improvements currently in development / strikeouts options are now availab
 * ~~Xresources, iTerm, terminal.app themes Pitch Mode~~
 * Option to remove CursorLine Background color
 * Option to have Matching Parens underlined
-* Option to cycle thru modes throughout the day - Campfire Mode
+* ~~Option to cycle thru modes throughout the day - Campfire Mode~~
 
 Callbacks 
 -------

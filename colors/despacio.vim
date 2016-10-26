@@ -116,6 +116,10 @@ if !exists("g:despacio_Pitch")
     let g:despacio_Pitch = 0
 endif
 
+if !exists("g:despacio_Campfire")
+    let g:despacio_Campfire = 0
+endif
+
 "================================================================================
 " DAY:
 "================================================================================
@@ -126,7 +130,7 @@ hi CursorLineNR     ctermfg=187        guifg=#dfdfaf       ctermbg=235       gui
 hi CursorLine       ctermfg=NONE       guifg=NONE          ctermbg=237       guibg=#3a3a3a       cterm=NONE     gui=NONE
 
 " Number Column:
-hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=235        guibg=#262626      cterm=NONE     gui=NONE
+hi Folded           ctermfg=187        guifg=#dfdfaf       ctermbg=236        guibg=#303030      cterm=NONE     gui=NONE
 hi FoldColumn       ctermfg=109        guifg=#87afaf       ctermbg=236        guibg=#303030      cterm=NONE     gui=NONE
 hi SignColumn       ctermfg=108        guifg=#87af87       ctermbg=236        guibg=#303030      cterm=NONE     gui=NONE
 
@@ -140,7 +144,7 @@ hi TabLineSel       ctermfg=187         guifg=#dfdfaf       ctermbg=235       gu
 
 " File Navigation:
 hi Directory        ctermfg=216         guifg=#ffaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
+hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       guibg=#af5f00      cterm=NONE     gui=NONE
 
 
 " Prompt Status:
@@ -222,6 +226,7 @@ if g:despacio_Sunset
 
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
@@ -257,6 +262,7 @@ if g:despacio_Twilight
 
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
@@ -291,6 +297,7 @@ if g:despacio_Midnight
 
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
@@ -325,6 +332,7 @@ if g:despacio_Pitch
 
     " Number Column:
     hi SignColumn       ctermfg=108        guifg=#87af87     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi Folded           ctermfg=187        guifg=#dfdfaf     ctermbg=232      guibg=#080808      cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109        guifg=#87afaf     ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
@@ -345,4 +353,39 @@ if g:despacio_Pitch
     hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=16        guifg=#000000        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=16        guifg=#000000        ctermbg=16      guibg=#000000      cterm=NONE    gui=NONE
+end
+
+"================================================================================
+" CAMPFIRE:
+"================================================================================
+if g:despacio_Campfire
+    let despacio_Hour = strftime("%H")
+
+    "Day: 7am - 5pm
+    if 7 <= despacio_Hour && despacio_Hour < 17
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 0
+
+    "Sunset: 5pm - 7pm
+    elseif 17 <= despacio_Hour && despacio_Hour < 19
+        let g:despacio_Sunset = 1
+
+    "Twilight: 7pm - 9pm
+    elseif 19 <= despacio_Hour && despacio_Hour < 21
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 1
+
+    "Midnight: 9pm - 12am
+    elseif 21 <= despacio_Hour && despacio_Hour < 24
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 1
+
+    "Pitch: 12am - 7am
+    else
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 1
+
+    endif
 end
