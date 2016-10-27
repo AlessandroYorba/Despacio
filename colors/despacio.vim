@@ -155,7 +155,6 @@ hi ModeMsg           ctermfg=144        guifg=#afaf87       ctermbg=NONE      gu
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
-"FIXME:
 hi StatusLine        ctermfg=236        guifg=#303030       ctermbg=187       guibg=#dfdfaf      cterm=NONE     gui=NONE
 hi StatusLineNC      ctermfg=187        guifg=#dfdfaf       ctermbg=NONE       guibg=NONE      cterm=underline gui=underline
 
@@ -275,8 +274,6 @@ if g:despacio_Twilight
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    "hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    "hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi StatusLine        ctermfg=234        guifg=#1c1c1c         ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
     hi StatusLineNC      ctermfg=180        guifg=#dfaf87         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
 
@@ -314,13 +311,7 @@ if g:despacio_Midnight
     hi TabLine          ctermfg=240         guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
-    "TODO:
     " Prompt Status:
-    "hi StatusLine       ctermfg=187         guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    "hi StatusLineNC     ctermfg=240         guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    "TEST:
-    "hi StatusLine       ctermfg=187         ctermbg=235 
-    "hi StatusLineNC     ctermfg=240         ctermbg=235 
     hi StatusLine        ctermfg=233        guifg=#121212         ctermbg=179      guibg=#dfaf5f      cterm=NONE     gui=NONE
     hi StatusLineNC      ctermfg=179        guifg=#dfaf5f         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
 
@@ -359,13 +350,8 @@ if g:despacio_Pitch
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
 
     " Prompt Status:
-    "hi StatusLine       ctermfg=187         guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
-    "hi StatusLineNC     ctermfg=240         guifg=#585858         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
-    "TEST:
-    "hi StatusLine       ctermfg=187         ctermbg=235 
-    "hi StatusLineNC     ctermfg=240         ctermbg=235 
-    hi StatusLine        ctermfg=232        guifg=#080808         ctermbg=166      guibg=#d75f00      cterm=NONE     gui=NONE
-    hi StatusLineNC      ctermfg=166        guifg=#d75f00         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
+    hi StatusLine        ctermfg=232        guifg=#080808         ctermbg=130      guibg=#af5f00      cterm=NONE     gui=NONE
+    hi StatusLineNC      ctermfg=130        guifg=#af5f00         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
 
     "Visual Aid:
     hi Todo              ctermfg=209        guifg=#ff875f         ctermbg=232      guibg=#080808      cterm=reverse  gui=reverse
