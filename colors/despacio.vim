@@ -151,7 +151,7 @@ hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       gu
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=144        guifg=#afaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
@@ -235,6 +235,7 @@ if g:despacio_Sunset
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " Prompt Status:
+    hi ModeMsg           ctermfg=137        guifg=#af875f         ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
     hi StatusLine        ctermfg=235        guifg=#262626         ctermbg=137      guibg=#af875f      cterm=NONE       gui=NONE
     hi StatusLineNC      ctermfg=137        guifg=#af875f         ctermbg=NONE     guibg=NONE         cterm=underline  gui=underline
 
@@ -274,6 +275,7 @@ if g:despacio_Twilight
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
+    hi ModeMsg           ctermfg=180        guifg=#dfaf87         ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
     hi StatusLine        ctermfg=234        guifg=#1c1c1c         ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
     hi StatusLineNC      ctermfg=180        guifg=#dfaf87         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
 
@@ -312,6 +314,7 @@ if g:despacio_Midnight
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " Prompt Status:
+    hi ModeMsg           ctermfg=179        guifg=#dfaf5f         ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
     hi StatusLine        ctermfg=233        guifg=#121212         ctermbg=179      guibg=#dfaf5f      cterm=NONE     gui=NONE
     hi StatusLineNC      ctermfg=179        guifg=#dfaf5f         ctermbg=NONE      guibg=NONE      cterm=underline     gui=underline
 
@@ -350,6 +353,7 @@ if g:despacio_Pitch
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
 
     " Prompt Status:
+    hi ModeMsg           ctermfg=209        guifg=#ff875f         ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
     hi StatusLine        ctermfg=232        guifg=#080808         ctermbg=209      guibg=#ff875f      cterm=NONE     gui=NONE
     hi StatusLineNC      ctermfg=209        guifg=#ff875f         ctermbg=NONE      guibg=NONE        cterm=underline     gui=underline
 
