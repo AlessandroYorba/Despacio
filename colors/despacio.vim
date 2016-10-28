@@ -81,6 +81,7 @@
 "Oak            137     #af875f       http://www.colorhexa.com/af875f
 "Cider          166     #d75f00       http://www.colorhexa.com/d75f00
 "Mallow         179     #dfaf5f       http://www.colorhexa.com/dfaf5f
+"Cream          180     #dfaf87       http://www.colorhexa.com/dfaf87
 "Honeystrand    208     #ff8700       http://www.colorhexa.com/ff8700
 "Pomegranate    209     #ff875f       http://www.colorhexa.com/ff875f
 "Yam            215     #ffaf5f       http://www.colorhexa.com/ffaf5f
@@ -151,7 +152,7 @@ hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       gu
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=180        guifg=#dfaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
@@ -304,14 +305,14 @@ if g:despacio_Midnight
     hi FoldColumn       ctermfg=109         guifg=#87afaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit        ctermfg=180         guifg=#afaf87         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi VertSplit        ctermfg=180         guifg=#dfaf87         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi ColorColumn      ctermfg=NONE        guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill      ctermfg=NONE        guifg=NONE            ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLine          ctermfg=240         guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLine        ctermfg=233        guifg=#121212         ctermbg=180      guibg=#afaf87      cterm=NONE     gui=NONE
+    hi StatusLine        ctermfg=233        guifg=#121212         ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
 
     "Visual Aid:
     hi Todo              ctermfg=209        guifg=#ff875f         ctermbg=233      guibg=#121212      cterm=reverse  gui=reverse
@@ -341,14 +342,14 @@ if g:despacio_Pitch
     hi FoldColumn       ctermfg=109         guifg=#87afaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit        ctermfg=180         guifg=#afaf87         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
+    hi VertSplit        ctermfg=180         guifg=#dfaf87         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
     hi ColorColumn      ctermfg=NONE        guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=NONE        guifg=NONE            ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
     hi TabLine          ctermfg=240         guifg=#585858         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
     hi TabLineSel       ctermfg=187         guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE     gui=NONE
 
     " Prompt Status:
-    hi StatusLine        ctermfg=232        guifg=#080808         ctermbg=180      guibg=#afaf87      cterm=NONE     gui=NONE
+    hi StatusLine        ctermfg=232        guifg=#080808         ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
 
     "Visual Aid:
     hi Todo              ctermfg=209        guifg=#ff875f         ctermbg=232      guibg=#080808      cterm=reverse  gui=reverse
