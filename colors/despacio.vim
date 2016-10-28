@@ -152,7 +152,7 @@ hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       gu
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
