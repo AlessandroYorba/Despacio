@@ -229,7 +229,7 @@ if g:despacio_Sunset
     hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=180        guifg=#afaf87         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=180        guifg=#dfaf87         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=240        guifg=#585858         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
