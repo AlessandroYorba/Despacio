@@ -152,7 +152,7 @@ hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       gu
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=180        guifg=#dfaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
@@ -274,7 +274,6 @@ if g:despacio_Twilight
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi ModeMsg           ctermfg=180        guifg=#dfaf87         ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
     hi StatusLine        ctermfg=234        guifg=#1c1c1c         ctermbg=180      guibg=#dfaf87      cterm=NONE     gui=NONE
 
     "Visual Aid:
