@@ -236,7 +236,7 @@ if g:despacio_Sunset
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " Prompt Status:
-    hi StatusLine        ctermfg=235        guifg=#262626         ctermbg=180      guibg=#afaf87      cterm=NONE       gui=NONE
+    hi StatusLine        ctermfg=235        guifg=#262626         ctermbg=180      guibg=#dfaf87      cterm=NONE       gui=NONE
 
     "Visual Aid:
     hi Todo              ctermfg=209        guifg=#ff875f         ctermbg=235      guibg=#262626      cterm=reverse  gui=reverse
