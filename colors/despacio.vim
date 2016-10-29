@@ -152,13 +152,11 @@ hi Search           ctermfg=187         guifg=#dfdfaf       ctermbg=130       gu
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi ModeMsg           ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-
 hi StatusLine        ctermfg=236        guifg=#303030       ctermbg=137       guibg=#af875f      cterm=NONE     gui=NONE
 hi StatusLineNC      ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE      cterm=underline gui=underline
-
 hi WildMenu          ctermfg=187        guifg=#dfdfaf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 
 " Visual Aid:
