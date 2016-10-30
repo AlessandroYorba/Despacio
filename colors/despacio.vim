@@ -176,7 +176,7 @@ hi Constant          ctermfg=166        guifg=#d75f00       ctermbg=NONE      gu
 hi String            ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Identifier        ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Function          ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi StorageClass      ctermfg=222        guifg=#ffdf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi StorageClass      ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
 " Language Constructs:
 hi Label             ctermfg=180        guifg=#dfaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
