@@ -153,8 +153,8 @@ hi Search           ctermfg=130         guifg=#af5f00       ctermbg=187       gu
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi MoreMsg           ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Question          ctermfg=179        guifg=#dfaf5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi MoreMsg           ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi Question          ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi StatusLine        ctermfg=230        guifg=#ffffdf       ctermbg=137       guibg=#af875f      cterm=NONE     gui=NONE
 hi StatusLineNC      ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE      cterm=underline gui=underline
 
