@@ -164,7 +164,7 @@ hi WildMenu          ctermfg=230        guifg=#ffffdf       ctermbg=66        gu
 hi NonText           ctermfg=239        guifg=#4e4e4e       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi SpecialKey        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi WarningMsg        ctermfg=166        guifg=#d70000       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi WarningMsg        ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MatchParen        ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 hi Visual            ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 hi Todo              ctermfg=209        guifg=#ff875f       ctermbg=236       guibg=#303030      cterm=reverse  gui=reverse
