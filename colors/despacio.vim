@@ -203,7 +203,7 @@ hi DiffDelete        ctermfg=187        guifg=#dfdfaf        ctermbg=131      gu
 
 " Completion Menu:
 hi Pmenu             ctermfg=187        guifg=#dfdfaf        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
-hi PmenuSel          ctermfg=187        guifg=#dfdfaf        ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
+hi PmenuSel          ctermfg=230        guifg=#ffffdf        ctermbg=66       guibg=#5f8787      cterm=NONE     gui=NONE
 hi PmenuSbar         ctermfg=235        guifg=#262626        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 hi PmenuThumb        ctermfg=235        guifg=#262626        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
