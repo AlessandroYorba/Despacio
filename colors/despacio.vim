@@ -168,8 +168,8 @@ hi WarningMsg        ctermfg=209        guifg=#ff875f       ctermbg=NONE      gu
 hi MatchParen        ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 hi Visual            ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 hi Todo              ctermfg=209        guifg=#ff875f       ctermbg=236       guibg=#303030      cterm=reverse  gui=reverse
-hi Error             ctermfg=160        guifg=#d70000       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
-hi ErrorMsg          ctermfg=160        guifg=#d70000       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE 
+hi Error             ctermfg=167        guifg=#d75f5f       ctermbg=233       guibg=#121212      cterm=reverse  gui=reverse
+hi ErrorMsg          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE 
 
 " Variable Types:
 hi Constant          ctermfg=166        guifg=#d75f00       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
