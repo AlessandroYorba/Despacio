@@ -208,7 +208,7 @@ hi PmenuSbar         ctermfg=235        guifg=#262626        ctermbg=235      gu
 hi PmenuThumb        ctermfg=235        guifg=#262626        ctermbg=235      guibg=#262626      cterm=NONE     gui=NONE
 
 " Spelling:
-hi SpellBad          ctermfg=196        guifg=#ff0000        ctermbg=NONE     guibg=NONE         cterm=undercurl gui=undercurl
+hi SpellBad          ctermfg=167        guifg=#d75f5f        ctermbg=NONE     guibg=NONE         cterm=undercurl gui=undercurl
 hi SpellLocal        ctermfg=65         guifg=#5f875f        ctermbg=NONE     guibg=NONE         cterm=undercurl gui=undercurl
 hi SpellCap          ctermfg=111        guifg=#87afff        ctermbg=NONE     guibg=NONE         cterm=undercurl gui=undercurl
 hi SpellRare         ctermfg=208        guifg=#ff8700        ctermbg=NONE     guibg=NONE         cterm=undercurl gui=undercurl
