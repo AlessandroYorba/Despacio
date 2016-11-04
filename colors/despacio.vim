@@ -191,7 +191,7 @@ hi Type              ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      gu
 
 " HTML:
 hi htmlStatement     ctermfg=223        guifg=#ffdfaf        ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
-hi htmlItalic        ctermfg=167        guifg=#d75f5f        ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
+hi htmlItalic        ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi htmlArg           ctermfg=166        guifg=#d75f00        ctermbg=NONE     guibg=NONE         cterm=NONE     gui=NONE
 
 "FIXME:
