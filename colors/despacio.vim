@@ -139,7 +139,13 @@ hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      gu
 hi MoreMsg           ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 
-" Wild Menu:
+" Number Column:
+hi Folded            ctermfg=187        guifg=#dfdfaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi FoldColumn        ctermfg=109        guifg=#87afaf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+hi SignColumn        ctermfg=108        guifg=#87af87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
+
+" Completion Menu:
+hi PmenuSel          ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 hi WildMenu          ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 
 " Visual Aid:
@@ -182,9 +188,6 @@ hi DiffChange        ctermfg=234        guifg=#1c1c1c       ctermbg=137       gu
 hi DiffText          ctermfg=234        guifg=#1c1c1c       ctermbg=180       guibg=#dfaf87      cterm=NONE     gui=NONE
 hi DiffDelete        ctermfg=187        guifg=#dfdfaf       ctermbg=131       guibg=#af5f5f      cterm=NONE     gui=NONE
 
-" Completion Menu:
-hi PmenuSel          ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
-
 " Spelling:
 hi SpellBad          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=undercurl gui=undercurl
 hi SpellLocal        ctermfg=65         guifg=#5f875f       ctermbg=NONE      guibg=NONE         cterm=undercurl gui=undercurl
@@ -202,11 +205,6 @@ if 1
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
-
-    " Number Column:
-    hi Folded            ctermfg=187        guifg=#dfdfaf         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
-    hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
@@ -237,11 +235,6 @@ if g:despacio_Sunset
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
 
-    " Number Column:
-    hi Folded            ctermfg=187        guifg=#dfdfaf         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -270,11 +263,6 @@ if g:despacio_Twilight
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-
-    " Number Column:
-    hi Folded            ctermfg=187        guifg=#dfdfaf         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -305,11 +293,6 @@ if g:despacio_Midnight
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
-    " Number Column:
-    hi Folded            ctermfg=187        guifg=#dfdfaf         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
@@ -338,11 +321,6 @@ if g:despacio_Pitch
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-
-    " Number Column:
-    hi Folded            ctermfg=187        guifg=#dfdfaf         ctermbg=NONE     guibg=NONE         cterm=NONE    gui=NONE
-    hi FoldColumn        ctermfg=109        guifg=#87afaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
-    hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
