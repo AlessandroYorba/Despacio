@@ -138,8 +138,6 @@ hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      gu
 hi ModeMsg           ctermfg=230        guifg=#ffffdf       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi MoreMsg           ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Question          ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi StatusLine        ctermfg=230        guifg=#ffffdf       ctermbg=137       guibg=#af875f      cterm=NONE     gui=NONE
-hi StatusLineNC      ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=underline gui=underline
 
 " Wild Menu:
 hi WildMenu          ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
@@ -211,7 +209,9 @@ if 1
     hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=137        guifg=#af875f         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=241        guifg=#626262         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
@@ -243,7 +243,9 @@ if g:despacio_Sunset
     hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=137        guifg=#af875f         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=240        guifg=#585858         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=240        guifg=#585858         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -275,7 +277,9 @@ if g:despacio_Twilight
     hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=137        guifg=#af875f         ctermbg=233      guibg=#262626      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=240        guifg=#585858         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=240        guifg=#585858         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -307,7 +311,9 @@ if g:despacio_Midnight
     hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=137        guifg=#af875f         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=240        guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=240        guifg=#585858         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
@@ -339,7 +345,9 @@ if g:despacio_Pitch
     hi SignColumn        ctermfg=108        guifg=#87af87         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
-    hi VertSplit         ctermfg=137        guifg=#af875f         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi StatusLineNC      ctermfg=240        guifg=#585858         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi VertSplit         ctermfg=240        guifg=#585858         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi TabLine           ctermfg=240        guifg=#585858         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi TabLineSel        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi TabLineFill       ctermfg=NONE       guifg=NONE            ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
