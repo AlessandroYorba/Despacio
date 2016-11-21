@@ -131,7 +131,7 @@ endif
 
 " File Navigation:
 hi Directory         ctermfg=216        guifg=#ffaf87       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
-hi Search            ctermfg=130        guifg=#af5f00       ctermbg=187       guibg=#dfdfaf      cterm=NONE     gui=NONE
+hi Search            ctermfg=230        guifg=#ffffdf       ctermbg=130       guibg=#af5f00      cterm=NONE     gui=NONE
 
 " Prompt Status:
 hi Title             ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
