@@ -149,7 +149,6 @@ hi PmenuSel          ctermfg=230        guifg=#ffffdf       ctermbg=66        gu
 hi WildMenu          ctermfg=230        guifg=#ffffdf       ctermbg=66        guibg=#5f8787      cterm=NONE     gui=NONE
 
 " Visual Aid:
-hi NonText           ctermfg=239        guifg=#4e4e4e       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi SpecialKey        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi Underlined        ctermfg=66         guifg=#5f8787       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 hi WarningMsg        ctermfg=209        guifg=#ff875f       ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
@@ -221,6 +220,9 @@ if 1
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=233        guifg=#121212         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=233        guifg=#121212         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 end
 
 "================================================================================
@@ -250,6 +252,9 @@ if g:despacio_Sunset
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=232        guifg=#080808         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=232        guifg=#080808         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 end
 
 "================================================================================
@@ -279,6 +284,9 @@ if g:despacio_Twilight
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=16         guifg=#000000         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=16         guifg=#000000         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 end
 
 "================================================================================
@@ -308,6 +316,9 @@ if g:despacio_Midnight
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 end
 
 "================================================================================
@@ -337,6 +348,9 @@ if g:despacio_Pitch
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+
+    " Visual Aid:
+    hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 end
 
 if g:despacio_Clear_Skies
