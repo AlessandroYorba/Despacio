@@ -204,7 +204,7 @@ if 1
     hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=237      guibg=#3a3a3a      cterm=NONE    gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
@@ -233,7 +233,7 @@ if g:despacio_Sunset
     hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
@@ -262,7 +262,7 @@ if g:despacio_Twilight
     hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
@@ -291,7 +291,7 @@ if g:despacio_Midnight
     hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
@@ -320,7 +320,7 @@ if g:despacio_Pitch
     hi CursorLineNr      ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi CursorLine        ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi CursorColumn      ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
-    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
+    hi ColorColumn       ctermfg=NONE       guifg=NONE            ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
     " WindowTab Delimiters:
     hi StatusLine        ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
