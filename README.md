@@ -7,6 +7,7 @@ Despacio
 ```VimL
 colorscheme despacio
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465773/91ec12c6-c965-11e6-85be-1c336aad5342.png)
 
 Installation
 ---------------
