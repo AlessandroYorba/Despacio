@@ -44,6 +44,12 @@ Despacio was inspired by KKPMW's awesome colorscheme [Moonshine](https://github.
 Related 
 -------
 Feedback, issues or suggestions? Open an Issue [Despacio Issues](https://github.com/AlessandroYorba/Despacio/issues)! Also, if you like Despacio you might want to check out a few of the other Vim themes I manage:
-* ![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21465714/18ca8280-c963-11e6-9f02-4a7b5cc8dab6.png) [Alduin](https://github.com/AlessandroYorba/Alduin)
-* ![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21465705/f6000b1c-c962-11e6-8ef8-9fc1ed3c2126.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
-* ![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21465713/0f9103c4-c963-11e6-80e0-1381207b03c2.png) [Arcadia](https://github.com/AlessandroYorba/Arcadia)
+
+Alduin  
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479316/36324af0-cb08-11e6-885e-8fcfbf3d8d1b.png)](https://github.com/AlessandroYorba/Alduin) 
+
+Arcadia  
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479319/39616e90-cb08-11e6-995c-ae7437df00b7.png)](https://github.com/AlessandroYorba/Arcadia) 
+
+Sierra  
+[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479321/3e43261a-cb08-11e6-8ce8-c4f1289d73c3.png)](https://github.com/AlessandroYorba/Sierra)
