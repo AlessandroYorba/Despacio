@@ -49,7 +49,7 @@ Alduin
 [![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479316/36324af0-cb08-11e6-885e-8fcfbf3d8d1b.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Arcadia  
-[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479319/39616e90-cb08-11e6-995c-ae7437df00b7.png)](https://github.com/AlessandroYorba/Arcadia) 
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21535179/4efe348e-cd26-11e6-958b-841c33cc23ec.png)](https://github.com/AlessandroYorba/Arcadia) 
 
 Sierra  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479321/3e43261a-cb08-11e6-8ce8-c4f1289d73c3.png)](https://github.com/AlessandroYorba/Sierra)
