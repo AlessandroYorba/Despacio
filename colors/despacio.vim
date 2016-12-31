@@ -221,6 +221,9 @@ if 1
     hi PmenuSbar         ctermfg=233        guifg=#121212         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=233        guifg=#121212         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 
+    " Number Column:
+    hi Folded            ctermfg=245        guifg=#8a8a8a         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
+
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
 end
@@ -252,6 +255,9 @@ if g:despacio_Sunset
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=232        guifg=#080808         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=232        guifg=#080808         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi Folded            ctermfg=244        guifg=#808080         ctermbg=232      guibg=#080808      cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
@@ -285,6 +291,9 @@ if g:despacio_Twilight
     hi PmenuSbar         ctermfg=16         guifg=#000000         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=16         guifg=#000000         ctermbg=16       guibg=#000000      cterm=NONE    gui=NONE
 
+    " Number Column:
+    hi Folded            ctermfg=244        guifg=#808080         ctermbg=16      guibg=#000000       cterm=NONE    gui=NONE
+
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
 end
@@ -317,6 +326,9 @@ if g:despacio_Midnight
     hi PmenuSbar         ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=236        guifg=#303030         ctermbg=236      guibg=#303030      cterm=NONE    gui=NONE
 
+    " Number Column:
+    hi Folded            ctermfg=244        guifg=#808080         ctermbg=236      guibg=#303030       cterm=NONE    gui=NONE
+
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=234      guibg=#1c1c1c      cterm=NONE    gui=NONE
 end
@@ -348,6 +360,9 @@ if g:despacio_Pitch
     hi Pmenu             ctermfg=187        guifg=#dfdfaf         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi PmenuSbar         ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
     hi PmenuThumb        ctermfg=235        guifg=#262626         ctermbg=235      guibg=#262626      cterm=NONE    gui=NONE
+
+    " Number Column:
+    hi Folded            ctermfg=244        guifg=#808080         ctermbg=235      guibg=#262626       cterm=NONE    gui=NONE
 
     " Visual Aid:
     hi NonText           ctermfg=239        guifg=#4e4e4e         ctermbg=233      guibg=#121212      cterm=NONE    gui=NONE
