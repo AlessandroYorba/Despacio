@@ -182,10 +182,10 @@ hi htmlArg           ctermfg=166        guifg=#d75f00       ctermbg=NONE      gu
 
 "FIXME:
 " Diff:
-hi DiffAdd           ctermfg=234        guifg=#1c1c1c       ctermbg=223       guibg=#ffdfaf      cterm=NONE     gui=NONE
-hi DiffChange        ctermfg=234        guifg=#1c1c1c       ctermbg=137       guibg=#af875f      cterm=NONE     gui=NONE
-hi DiffText          ctermfg=234        guifg=#1c1c1c       ctermbg=180       guibg=#dfaf87      cterm=NONE     gui=NONE
-hi DiffDelete        ctermfg=187        guifg=#dfdfaf       ctermbg=131       guibg=#af5f5f      cterm=NONE     gui=NONE
+hi DiffAdd           ctermfg=223        guifg=#ffdfaf       ctermbg=NONE      guibg=NONE         cterm=reverse  gui=reverse
+hi DiffChange        ctermfg=137        guifg=#af875f       ctermbg=NONE      guibg=NONE         cterm=reverse  gui=reverse
+hi DiffText          ctermfg=180        guifg=#dfaf87       ctermbg=NONE      guibg=NONE         cterm=reverse  gui=reverse
+hi DiffDelete        ctermfg=131        guifg=#af5f5f       ctermbg=NONE      guibg=NONE         cterm=reverse  gui=reverse
 
 " Spelling:
 hi SpellBad          ctermfg=167        guifg=#d75f5f       ctermbg=NONE      guibg=NONE         cterm=undercurl gui=undercurl
