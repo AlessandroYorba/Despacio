@@ -2,7 +2,7 @@ Despacio
 ------
 
 ###### Despacio version 4.0.0 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465702/da24ed86-c962-11e6-97ad-fdeba97c94b7.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21798530/c9a588ac-d6c9-11e6-9a53-8f516a76f311.png)
 
 ```VimL
 colorscheme despacio
@@ -46,7 +46,8 @@ Related
 Feedback, issues or suggestions? Open an Issue [Despacio Issues](https://github.com/AlessandroYorba/Despacio/issues)! Also, if you like Despacio you might want to check out a few of the other Vim themes I manage:
 
 Alduin  
-[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21479316/36324af0-cb08-11e6-885e-8fcfbf3d8d1b.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21798526/c5b64916-d6c9-11e6-928a-f2d4006c4d60.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Sierra  
-[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479321/3e43261a-cb08-11e6-8ce8-c4f1289d73c3.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21798531/cd4a5780-d6c9-11e6-9ec0-544f83382f49.png)](https://github.com/AlessandroYorba/Sierra)
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21798546/e03c3b60-d6c9-11e6-80e3-1565d812aa78.png)](https://github.com/AlessandroYorba/Sidonia)
