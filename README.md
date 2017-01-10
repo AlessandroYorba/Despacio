@@ -50,4 +50,6 @@ Alduin
 
 Sierra  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21798531/cd4a5780-d6c9-11e6-9ec0-544f83382f49.png)](https://github.com/AlessandroYorba/Sierra)
+
+Sidonia
 [![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21798546/e03c3b60-d6c9-11e6-80e3-1565d812aa78.png)](https://github.com/AlessandroYorba/Sidonia)
