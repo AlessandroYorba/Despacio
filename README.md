@@ -16,6 +16,10 @@ You can activate them by adding each of the following variables to your .vimrc. 
 | almost black background            | `let g:despacio_Midnight = 1`            | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465777/a7fa0636-c965-11e6-9a53-28040e0e8576.png)|
 | black background                   | `let g:despacio_Pitch = 1`               | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465789/2032ea1e-c966-11e6-9352-efe14c0eb0bb.png)|
 
+```VimL
+colorscheme despacio
+```
+
 :open_file_folder: Installation
 ---------------
 There are a few ways to install despacio. The first option is by using your favorite vim package manager and the second is by manual download.
