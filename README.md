@@ -2,9 +2,7 @@ Despacio
 ------
 
 ###### Despacio version 4.0.0 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21798530/c9a588ac-d6c9-11e6-9a53-8f516a76f311.png)
-
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465773/91ec12c6-c965-11e6-85be-1c336aad5342.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22007610/eda45eae-dc28-11e6-8f64-74ecfbbf9de2.png)
 
 :rocket: Setup
 ---------------
@@ -38,10 +36,13 @@ Download the .zip and copy `despacio.vim` to `~/.vim/colors` (on Windows `<your-
 Feedback, issues or suggestions? Open an Issue [Despacio Issues](https://github.com/AlessandroYorba/Despacio/issues)! Also, if you like Despacio you might want to check out a few of the other Vim themes I manage:
 
 Alduin  
-[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/21798526/c5b64916-d6c9-11e6-928a-f2d4006c4d60.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/22007615/fbbb8ada-dc28-11e6-8ba3-87d47fdd5117.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Sierra  
-[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21798531/cd4a5780-d6c9-11e6-9ec0-544f83382f49.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/22007623/06536eb8-dc29-11e6-9482-4ad3ea438772.png)](https://github.com/AlessandroYorba/Sierra)
 
 Sidonia
-[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21798546/e03c3b60-d6c9-11e6-80e3-1565d812aa78.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/22007632/1137de90-dc29-11e6-9f09-ade60189e237.png)](https://github.com/AlessandroYorba/Sidonia)
+
+Monrovia
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007637/17ec3948-dc29-11e6-9a78-049b930226bb.png)](https://github.com/AlessandroYorba/Monrovia)
