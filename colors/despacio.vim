@@ -128,34 +128,36 @@ endif
 " COMMON SETTINGS:
 "================================================================================
 
-highlight! Constant               guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166  ctermbg=NONE  cterm=NONE
-highlight! Special                guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216  ctermbg=NONE  cterm=NONE
-highlight! String                 guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230  ctermbg=NONE  cterm=NONE
-highlight! PreProc                guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209  ctermbg=NONE  cterm=NONE
-highlight! Statement              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137  ctermbg=NONE  cterm=NONE
-highlight! ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167  ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66   ctermbg=NONE  cterm=NONE
-highlight! Function               guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223  ctermbg=NONE  cterm=NONE
-highlight! Label                  guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180  ctermbg=NONE  cterm=NONE
-highlight! FoldColumn             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109  ctermbg=NONE  cterm=NONE
-highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108  ctermbg=NONE  cterm=NONE
-highlight! Folded                 guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187  ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#ffffdf  guibg=#af5f00  gui=NONE       ctermfg=230  ctermbg=130   cterm=NONE
-highlight! Visual                 guifg=#ffffdf  guibg=#5f8787  gui=NONE       ctermfg=230  ctermbg=66    cterm=NONE
-highlight! Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167  ctermbg=233   cterm=reverse
-highlight! Todo                   guifg=#ff875f  guibg=NONE     gui=reverse    ctermfg=209  ctermbg=NONE  cterm=reverse
-highlight! DiffChange             guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137  ctermbg=NONE  cterm=reverse
-highlight! DiffText               guifg=#dfaf87  guibg=NONE     gui=reverse    ctermfg=180  ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                guifg=#ffdfaf  guibg=NONE     gui=reverse    ctermfg=223  ctermbg=NONE  cterm=reverse
-highlight! DiffDelete             guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131  ctermbg=NONE  cterm=reverse
-highlight! SpellBad               guifg=#d75f5f  guibg=NONE     gui=undercurl  ctermfg=167  ctermbg=NONE  cterm=undercurl
-highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65   ctermbg=NONE  cterm=undercurl
-highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111  ctermbg=NONE  cterm=undercurl
-highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208  ctermbg=NONE  cterm=undercurl
+highlight! Constant               guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
+highlight! Special                guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216   ctermbg=NONE  cterm=NONE
+highlight! String                 guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
+highlight! PreProc                guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
+highlight! Statement              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
+highlight! ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! Function               guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
+highlight! Label                  guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
+highlight! FoldColumn             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
+highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108   ctermbg=NONE  cterm=NONE
+highlight! Folded                 guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187   ctermbg=NONE  cterm=NONE
+highlight! Search                 guifg=#ffffdf  guibg=#af5f00  gui=NONE       ctermfg=230   ctermbg=130   cterm=NONE
+highlight! Visual                 guifg=#ffffdf  guibg=#5f8787  gui=NONE       ctermfg=230   ctermbg=66    cterm=NONE
+highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
+highlight! Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
+highlight! Todo                   guifg=#ff875f  guibg=NONE     gui=reverse    ctermfg=209   ctermbg=NONE  cterm=reverse
+highlight! DiffChange             guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137   ctermbg=NONE  cterm=reverse
+highlight! DiffText               guifg=#dfaf87  guibg=NONE     gui=reverse    ctermfg=180   ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                guifg=#ffdfaf  guibg=NONE     gui=reverse    ctermfg=223   ctermbg=NONE  cterm=reverse
+highlight! DiffDelete             guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
+highlight! SpellBad               guifg=#d75f5f  guibg=NONE     gui=undercurl  ctermfg=167   ctermbg=NONE  cterm=undercurl
+highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65    ctermbg=NONE  cterm=undercurl
+highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
+highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208   ctermbg=NONE  cterm=undercurl
 
+highlight! link PmenuThumb        PmenuSbar
 highlight! link Directory		  Special
 highlight! link MatchParen        Visual
-highlight! link PmenuSel          Visual
+"highlight! link PmenuSel          Visual
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           String
 highlight! link htmlItalic        PreProc
@@ -177,48 +179,46 @@ highlight! link StorageClass      Label
 if 1
     highlight! Normal             guifg=#e4e4e4  guibg=#303030  gui=NONE  ctermfg=254   ctermbg=236   cterm=NONE
     highlight! Comment            guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
-    highlight! LineNr             guifg=#8a8a8a  guibg=#121212  gui=NONE  ctermfg=245   ctermbg=233   cterm=NONE
-    highlight! StatusLine         guifg=#dfdfaf  guibg=#121212  gui=NONE  ctermfg=187   ctermbg=233   cterm=NONE
-    highlight! TabLineFill        guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
-    highlight! CursorLine         guifg=NONE     guibg=#262626  gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
-    highlight! PmenuSbar          guifg=#121212  guibg=#121212  gui=NONE  ctermfg=233   ctermbg=233   cterm=NONE
-    highlight! NonText            guifg=#4e4e4e  guibg=#262626  gui=NONE  ctermfg=239   ctermbg=235   cterm=NONE
+    highlight! LineNr             guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
+    highlight! CursorLine         guifg=NONE     guibg=#3a3a3a  gui=NONE  ctermfg=NONE  ctermbg=237   cterm=NONE
+    highlight! StatusLine         guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE  ctermfg=187   ctermbg=234  cterm=NONE
+    highlight! StatusLineNC       guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE  ctermfg=245   ctermbg=234  cterm=NONE
+    highlight! TabLineFill        guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234  cterm=NONE
 
-    highlight! link StatusLineNC  LineNr
-    highlight! link VertSplit     LineNr
-    highlight! link TabLine       LineNr
+    highlight! link VertSplit     StatusLineNC
+    highlight! link TabLine       StatusLineNC
+    highlight! link Pmenu         StatusLineNC
+    highlight! link NonText       LineNr
     highlight! link Folded        LineNr
-    highlight! link CursorLineNr  StatusLine
     highlight! link TabLineSel    StatusLine
-    highlight! link Pmenu         StatusLine
+    highlight! link CursorLineNr  StatusLine
+    highlight! link PmenuSel      StatusLine
     highlight! link CursorColumn  CursorLine
     highlight! link ColorColumn   CursorLine
-    highlight! link PmenuThumb    PmenuSbar
 endif
 
 "================================================================================
 " SUNSET:
 "================================================================================
 if g:despacio_Sunset
-    highlight! Normal             guifg=#dfdfdf   guibg=#262626  gui=NONE  ctermfg=188   ctermbg=235   cterm=NONE
-    highlight! Comment            guifg=#808080   guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
-    highlight! LineNr             guifg=#808080   guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232   cterm=NONE
-    highlight! StatusLine         guifg=#dfdfaf   guibg=#080808  gui=NONE  ctermfg=187   ctermbg=232   cterm=NONE
-    highlight! TabLineFill        guifg=NONE      guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232   cterm=NONE
-    highlight! CursorLine         guifg=NONE      guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234   cterm=NONE
-    highlight! PmenuSbar          guifg=#080808   guibg=#080808  gui=NONE  ctermfg=232   ctermbg=232   cterm=NONE
-    highlight! NonText            guifg=#4e4e4e   guibg=#1c1c1c  gui=NONE  ctermfg=239   ctermbg=234   cterm=NONE
+    highlight! Normal             guifg=#dfdfdf  guibg=#262626  gui=NONE  ctermfg=188   ctermbg=235   cterm=NONE
+    highlight! Comment            guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
+    highlight! LineNr             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
+    highlight! CursorLine         guifg=NONE     guibg=#303030  gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
+    highlight! StatusLine         guifg=#dfdfaf  guibg=#121212  gui=NONE  ctermfg=187   ctermbg=233   cterm=NONE
+    highlight! StatusLineNC       guifg=#808080  guibg=#121212  gui=NONE  ctermfg=244   ctermbg=233   cterm=NONE
+    highlight! TabLineFill        guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
 
-    highlight! link StatusLineNC  LineNr
-    highlight! link VertSplit     LineNr
-    highlight! link TabLine       LineNr
+    highlight! link VertSplit     StatusLineNC
+    highlight! link TabLine       StatusLineNC
+    highlight! link Pmenu         StatusLineNC
+    highlight! link NonText       LineNr
     highlight! link Folded        LineNr
-    highlight! link CursorLineNr  StatusLine
     highlight! link TabLineSel    StatusLine
-    highlight! link Pmenu         StatusLine
+    highlight! link CursorLineNr  StatusLine
+    highlight! link PmenuSel      StatusLine
     highlight! link CursorColumn  CursorLine
     highlight! link ColorColumn   CursorLine
-    highlight! link PmenuThumb    PmenuSbar
 endif
 
 "================================================================================
@@ -227,23 +227,22 @@ endif
 if g:despacio_Twilight
     highlight! Normal              guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE  ctermfg=188   ctermbg=234   cterm=NONE
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
-    highlight! LineNr              guifg=#808080  guibg=#000000  gui=NONE  ctermfg=244   ctermbg=16    cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#000000  gui=NONE  ctermfg=187   ctermbg=16    cterm=NONE
-    highlight! TabLineFill         guifg=NONE     guibg=#000000  gui=NONE  ctermfg=NONE  ctermbg=16    cterm=NONE
-    highlight! CursorLine          guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
-    highlight! PmenuSbar           guifg=#000000  guibg=#000000  gui=NONE  ctermfg=16    ctermbg=16    cterm=NONE
-    highlight! NonText             guifg=#4e4e4e  guibg=#121212  gui=NONE  ctermfg=239   ctermbg=233   cterm=NONE
+    highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
+    highlight! CursorLine          guifg=NONE     guibg=#262626  gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! StatusLine          guifg=#dfdfaf  guibg=#080808  gui=NONE  ctermfg=187   ctermbg=232    cterm=NONE
+    highlight! StatusLineNC        guifg=#808080  guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232    cterm=NONE
+    highlight! TabLineFill         guifg=NONE     guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232    cterm=NONE
 
-    highlight! link StatusLineNC   LineNr
-    highlight! link VertSplit      LineNr
-    highlight! link TabLine        LineNr
-    highlight! link Folded         LineNr
-    highlight! link CursorLineNr   StatusLine
-    highlight! link TabLineSel     StatusLine
-    highlight! link Pmenu          StatusLine
-    highlight! link CursorColumn   CursorLine
-    highlight! link ColorColumn    CursorLine
-    highlight! link PmenuThumb     PmenuSbar
+    highlight! link VertSplit     StatusLineNC
+    highlight! link TabLine       StatusLineNC
+    highlight! link Pmenu         StatusLineNC
+    highlight! link NonText       LineNr
+    highlight! link Folded        LineNr
+    highlight! link TabLineSel    StatusLine
+    highlight! link CursorLineNr  StatusLine
+    highlight! link PmenuSel      StatusLine
+    highlight! link CursorColumn  CursorLine
+    highlight! link ColorColumn   CursorLine
 endif
 
 "================================================================================
@@ -252,23 +251,22 @@ endif
 if g:despacio_Midnight
     highlight! Normal              guifg=#dfdfdf  guibg=#121212  gui=NONE  ctermfg=188   ctermbg=233   cterm=NONE
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
-    highlight! LineNr              guifg=#808080  guibg=#303030  gui=NONE  ctermfg=244   ctermbg=236   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#303030  gui=NONE  ctermfg=187   ctermbg=236   cterm=NONE
-    highlight! TabLineFill         guifg=NONE     guibg=#303030  gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
+    highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234   cterm=NONE
-    highlight! PmenuSbar           guifg=#303030  guibg=#303030  gui=NONE  ctermfg=236   ctermbg=236   cterm=NONE
-    highlight! NonText             guifg=#4e4e4e  guibg=#1c1c1c  gui=NONE  ctermfg=239   ctermbg=234   cterm=NONE
+    highlight! StatusLine          guifg=#dfdfaf  guibg=#303030  gui=NONE  ctermfg=187   ctermbg=236   cterm=NONE
+    highlight! StatusLineNC        guifg=#808080  guibg=#303030  gui=NONE  ctermfg=244   ctermbg=236   cterm=NONE
+    highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
 
-    highlight! link StatusLineNC   LineNr
-    highlight! link VertSplit      LineNr
-    highlight! link TabLine        LineNr
-    highlight! link Folded         LineNr
-    highlight! link CursorLineNr   StatusLine
-    highlight! link TabLineSel     StatusLine
-    highlight! link Pmenu          StatusLine
-    highlight! link CursorColumn   CursorLine
-    highlight! link ColorColumn    CursorLine
-    highlight! link PmenuThumb     PmenuSbar
+    highlight! link VertSplit     StatusLineNC
+    highlight! link TabLine       StatusLineNC
+    highlight! link Pmenu         StatusLineNC
+    highlight! link NonText       LineNr
+    highlight! link Folded        LineNr
+    highlight! link TabLineSel    StatusLine
+    highlight! link CursorLineNr  StatusLine
+    highlight! link PmenuSel      StatusLine
+    highlight! link CursorColumn  CursorLine
+    highlight! link ColorColumn   CursorLine
 endif
 
 "================================================================================
@@ -277,23 +275,22 @@ endif
 if g:despacio_Pitch
     highlight! Normal              guifg=#dfdfdf  guibg=#080808  gui=NONE  ctermfg=188   ctermbg=232   cterm=NONE
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
-    highlight! LineNr              guifg=#808080  guibg=#262626  gui=NONE  ctermfg=244   ctermbg=235   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#262626  gui=NONE  ctermfg=187   ctermbg=235   cterm=NONE
-    highlight! TabLineFill         guifg=NONE     guibg=#262626  gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
-    highlight! PmenuSbar           guifg=#262626  guibg=#262626  gui=NONE  ctermfg=235   ctermbg=235   cterm=NONE
-    highlight! NonText             guifg=#4e4e4e  guibg=#121212  gui=NONE  ctermfg=239   ctermbg=233   cterm=NONE
+    highlight! StatusLine          guifg=#dfdfaf  guibg=#262626  gui=NONE  ctermfg=187   ctermbg=235   cterm=NONE
+    highlight! StatusLineNC        guifg=#808080  guibg=#262626  gui=NONE  ctermfg=244   ctermbg=235   cterm=NONE
+    highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
 
-    highlight! link StatusLineNC   LineNr
-    highlight! link VertSplit      LineNr
-    highlight! link TabLine        LineNr
-    highlight! link Folded         LineNr
-    highlight! link CursorLineNr   StatusLine
-    highlight! link TabLineSel     StatusLine
-    highlight! link Pmenu          StatusLine
-    highlight! link CursorColumn   CursorLine
-    highlight! link ColorColumn    CursorLine
-    highlight! link PmenuThumb     PmenuSbar
+    highlight! link VertSplit     StatusLineNC
+    highlight! link TabLine       StatusLineNC
+    highlight! link Pmenu         StatusLineNC
+    highlight! link NonText       LineNr
+    highlight! link Folded        LineNr
+    highlight! link TabLineSel    StatusLine
+    highlight! link CursorLineNr  StatusLine
+    highlight! link PmenuSel      StatusLine
+    highlight! link CursorColumn  CursorLine
+    highlight! link ColorColumn   CursorLine
 endif
 
 "================================================================================
