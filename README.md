@@ -49,4 +49,4 @@ Sidonia
 [![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/22007632/1137de90-dc29-11e6-9f09-ade60189e237.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
-[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22250002/227ea702-e1fa-11e6-80f4-dc631127c5d0.png)](https://github.com/AlessandroYorba/Monrovia)
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22258847/ef26a42c-e217-11e6-82b4-d35757ec4f92.png)](https://github.com/AlessandroYorba/Monrovia)
