@@ -157,7 +157,6 @@ highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  c
 highlight! link PmenuThumb        PmenuSbar
 highlight! link Directory		  Special
 highlight! link MatchParen        Visual
-"highlight! link PmenuSel          Visual
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           String
 highlight! link htmlItalic        PreProc
@@ -181,9 +180,9 @@ if 1
     highlight! Comment            guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
     highlight! LineNr             guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
     highlight! CursorLine         guifg=NONE     guibg=#3a3a3a  gui=NONE  ctermfg=NONE  ctermbg=237   cterm=NONE
-    highlight! StatusLine         guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE  ctermfg=187   ctermbg=234  cterm=NONE
-    highlight! StatusLineNC       guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE  ctermfg=245   ctermbg=234  cterm=NONE
-    highlight! TabLineFill        guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234  cterm=NONE
+    highlight! StatusLine         guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE  ctermfg=187   ctermbg=234   cterm=NONE
+    highlight! StatusLineNC       guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE  ctermfg=245   ctermbg=234   cterm=NONE
+    highlight! TabLineFill        guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234   cterm=NONE
 
     highlight! link VertSplit     StatusLineNC
     highlight! link TabLine       StatusLineNC
@@ -229,20 +228,20 @@ if g:despacio_Twilight
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#262626  gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#080808  gui=NONE  ctermfg=187   ctermbg=232    cterm=NONE
-    highlight! StatusLineNC        guifg=#808080  guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232    cterm=NONE
-    highlight! TabLineFill         guifg=NONE     guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232    cterm=NONE
+    highlight! StatusLine          guifg=#dfdfaf  guibg=#080808  gui=NONE  ctermfg=187   ctermbg=232   cterm=NONE
+    highlight! StatusLineNC        guifg=#808080  guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232   cterm=NONE
+    highlight! TabLineFill         guifg=NONE     guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232   cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
@@ -257,16 +256,16 @@ if g:despacio_Midnight
     highlight! StatusLineNC        guifg=#808080  guibg=#303030  gui=NONE  ctermfg=244   ctermbg=236   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
@@ -281,16 +280,16 @@ if g:despacio_Pitch
     highlight! StatusLineNC        guifg=#808080  guibg=#262626  gui=NONE  ctermfg=244   ctermbg=235   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
 
-    highlight! link VertSplit     StatusLineNC
-    highlight! link TabLine       StatusLineNC
-    highlight! link Pmenu         StatusLineNC
-    highlight! link NonText       LineNr
-    highlight! link Folded        LineNr
-    highlight! link TabLineSel    StatusLine
-    highlight! link CursorLineNr  StatusLine
-    highlight! link PmenuSel      StatusLine
-    highlight! link CursorColumn  CursorLine
-    highlight! link ColorColumn   CursorLine
+    highlight! link VertSplit      StatusLineNC
+    highlight! link TabLine        StatusLineNC
+    highlight! link Pmenu          StatusLineNC
+    highlight! link NonText        LineNr
+    highlight! link Folded         LineNr
+    highlight! link TabLineSel     StatusLine
+    highlight! link CursorLineNr   StatusLine
+    highlight! link PmenuSel       StatusLine
+    highlight! link CursorColumn   CursorLine
+    highlight! link ColorColumn    CursorLine
 endif
 
 "================================================================================
