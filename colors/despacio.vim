@@ -140,8 +140,8 @@ highlight! Label                  guifg=#dfaf87  guibg=NONE     gui=NONE       c
 highlight! FoldColumn             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108   ctermbg=NONE  cterm=NONE
 highlight! Folded                 guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187   ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#ffffdf  guibg=#af5f00  gui=NONE       ctermfg=230   ctermbg=130   cterm=NONE
-highlight! Visual                 guifg=#ffffdf  guibg=#5f8787  gui=NONE       ctermfg=230   ctermbg=66    cterm=NONE
+highlight! Search                 guifg=#eeeeee  guibg=#af5f00  gui=NONE       ctermfg=255   ctermbg=130   cterm=NONE
+highlight! Visual                 guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255   ctermbg=66    cterm=NONE
 highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight! Todo                   guifg=#ff875f  guibg=NONE     gui=reverse    ctermfg=209   ctermbg=NONE  cterm=reverse
@@ -180,7 +180,7 @@ if 1
     highlight! Comment            guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
     highlight! LineNr             guifg=#8a8a8a  guibg=NONE     gui=NONE  ctermfg=245   ctermbg=NONE  cterm=NONE
     highlight! CursorLine         guifg=NONE     guibg=#3a3a3a  gui=NONE  ctermfg=NONE  ctermbg=237   cterm=NONE
-    highlight! StatusLine         guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE  ctermfg=187   ctermbg=234   cterm=NONE
+    highlight! StatusLine         guifg=#eeeeee  guibg=#1c1c1c  gui=NONE  ctermfg=255   ctermbg=234   cterm=NONE
     highlight! StatusLineNC       guifg=#8a8a8a  guibg=#1c1c1c  gui=NONE  ctermfg=245   ctermbg=234   cterm=NONE
     highlight! TabLineFill        guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234   cterm=NONE
 
@@ -204,7 +204,7 @@ if g:despacio_Sunset
     highlight! Comment            guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! LineNr             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine         guifg=NONE     guibg=#303030  gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
-    highlight! StatusLine         guifg=#dfdfaf  guibg=#121212  gui=NONE  ctermfg=187   ctermbg=233   cterm=NONE
+    highlight! StatusLine         guifg=#eeeeee  guibg=#121212  gui=NONE  ctermfg=255   ctermbg=233   cterm=NONE
     highlight! StatusLineNC       guifg=#808080  guibg=#121212  gui=NONE  ctermfg=244   ctermbg=233   cterm=NONE
     highlight! TabLineFill        guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
 
@@ -228,7 +228,7 @@ if g:despacio_Twilight
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#262626  gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#080808  gui=NONE  ctermfg=187   ctermbg=232   cterm=NONE
+    highlight! StatusLine          guifg=#eeeeee  guibg=#080808  gui=NONE  ctermfg=255   ctermbg=232   cterm=NONE
     highlight! StatusLineNC        guifg=#808080  guibg=#080808  gui=NONE  ctermfg=244   ctermbg=232   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=#080808  gui=NONE  ctermfg=NONE  ctermbg=232   cterm=NONE
 
@@ -252,7 +252,7 @@ if g:despacio_Midnight
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#1c1c1c  gui=NONE  ctermfg=NONE  ctermbg=234   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#303030  gui=NONE  ctermfg=187   ctermbg=236   cterm=NONE
+    highlight! StatusLine          guifg=#eeeeee  guibg=#303030  gui=NONE  ctermfg=255   ctermbg=236   cterm=NONE
     highlight! StatusLineNC        guifg=#808080  guibg=#303030  gui=NONE  ctermfg=244   ctermbg=236   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=236   cterm=NONE
 
@@ -276,7 +276,7 @@ if g:despacio_Pitch
     highlight! Comment             guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! LineNr              guifg=#808080  guibg=NONE     gui=NONE  ctermfg=244   ctermbg=NONE  cterm=NONE
     highlight! CursorLine          guifg=NONE     guibg=#121212  gui=NONE  ctermfg=NONE  ctermbg=233   cterm=NONE
-    highlight! StatusLine          guifg=#dfdfaf  guibg=#262626  gui=NONE  ctermfg=187   ctermbg=235   cterm=NONE
+    highlight! StatusLine          guifg=#eeeeee  guibg=#262626  gui=NONE  ctermfg=255   ctermbg=235   cterm=NONE
     highlight! StatusLineNC        guifg=#808080  guibg=#262626  gui=NONE  ctermfg=244   ctermbg=235   cterm=NONE
     highlight! TabLineFill         guifg=NONE     guibg=NONE     gui=NONE  ctermfg=NONE  ctermbg=235   cterm=NONE
 
