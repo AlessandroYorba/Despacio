@@ -40,7 +40,7 @@ Download the .zip and copy `despacio.vim` to `~/.vim/colors` (on Windows `<your-
 Feedback, issues or suggestions? Open an Issue [Despacio Issues](https://github.com/AlessandroYorba/Despacio/issues)! Also, if you like Despacio you might want to check out a few of the other Vim themes I manage:
 
 Alduin  
-[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/22007615/fbbb8ada-dc28-11e6-8ba3-87d47fdd5117.png)](https://github.com/AlessandroYorba/Alduin) 
+[![alduinPalette](https://cloud.githubusercontent.com/assets/11221489/22487729/600b1dd4-e7c3-11e6-8112-002863a1bd06.png)](https://github.com/AlessandroYorba/Alduin) 
 
 Sierra  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/22007623/06536eb8-dc29-11e6-9482-4ad3ea438772.png)](https://github.com/AlessandroYorba/Sierra)
