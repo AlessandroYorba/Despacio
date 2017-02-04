@@ -2,7 +2,7 @@ Despacio
 ------
 
 ###### Despacio version 4.0.0 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22007610/eda45eae-dc28-11e6-8f64-74ecfbbf9de2.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22621918/d8c5f410-eae3-11e6-8396-9e19b25d5293.png)
 
 :rocket: Setup
 ---------------
