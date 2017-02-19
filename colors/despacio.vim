@@ -12,80 +12,6 @@
 " Script URL:   https://github.com/AlessandroYorba/Despacio
 " License:      MIT
 
-"================================================================================
-" COLOR PALETTE:
-"================================================================================
-
-"White:
-"================================================================================
-"Cloud          254      #e4e4e4
-
-"Black:
-"================================================================================
-"Abyss          16       #000000
-"Pitch          232      #080808
-"Midnight       233      #121212
-"Twilight       234      #1c1c1c
-
-"Gray:
-"================================================================================
-"Stars          188      #dfdfdf
-"Sunset         235      #262626
-"Day            236      #303030
-"Shade          237      #3a3a3a
-"Pebble         239      #4e4e4e
-"Graphite       240      #585858
-"Fog            241      #626262
-"Ash            243      #767676
-"Dust           244      #808080
-"Stone          245      #8a8a8a
-
-"Red:
-"================================================================================
-"Firecracker    131      #af5f5f
-"Scarlet        160      #d70000
-"Rose           167      #d75f5f
-"Cherry         196      #ff0000
-
-"Green:
-"================================================================================
-"Marsh          108      #87af87
-"Fern           65       #5f875f
-
-"Yellow:
-"================================================================================
-"Dune           187      #dfdfaf
-"Flats          144      #afaf87
-"Linen          222      #ffdf87
-"Sand           223      #ffdfaf
-"Firefly        230      #ffffdf
-
-"Cyan:
-"================================================================================
-"Lilac          60       #5f5f87
-"Lake           66       #5f8787
-"Oasis          109      #87afaf
-"Robin          111      #87afff
-
-"Blue:
-"================================================================================
-"Heather        103      #8787af
-
-"Purple:
-"================================================================================
-"Lavender       146      #afafd7
-
-"Orange:
-"================================================================================
-"Bluebells      130     #af5f00
-"Oak            137     #af875f
-"Cider          166     #d75f00
-"Mallow         179     #dfaf5f
-"Cream          180     #dfaf87
-"Honeystrand    208     #ff8700
-"Pomegranate    209     #ff875f
-"Yam            215     #ffaf5f
-"Sorbet         216     #ffaf87
 
 set background=dark
 
@@ -99,6 +25,7 @@ endif
 "================================================================================
 
 let g:colors_name="despacio"
+
 
 if !exists("g:despacio_Sunset")
     let g:despacio_Sunset = 0
@@ -122,6 +49,44 @@ endif
 
 if !exists("g:despacio_Campfire")
     let g:despacio_Campfire = 0
+endif
+
+"================================================================================
+" CAMPFIRE:
+"================================================================================
+if g:despacio_Campfire
+    let despacio_Hour = strftime("%H")
+    "Day: 7am - 5pm
+    if 7 <= despacio_Hour && despacio_Hour < 17
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 0
+    "Sunset: 5pm - 7pm
+    elseif 17 <= despacio_Hour && despacio_Hour < 19
+        let g:despacio_Sunset = 1
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 0
+    "Twilight: 7pm - 9pm
+    elseif 19 <= despacio_Hour && despacio_Hour < 21
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 1
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 0
+    "Midnight: 9pm - 12am
+    elseif 21 <= despacio_Hour && despacio_Hour < 24
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 1
+        let g:despacio_Pitch = 0
+    "Pitch: 12am - 7am
+    else
+        let g:despacio_Sunset = 0
+        let g:despacio_Twilight = 0
+        let g:despacio_Midnight = 0
+        let g:despacio_Pitch = 1
+    endif
 endif
 
 "================================================================================
@@ -299,42 +264,4 @@ endif
 if g:despacio_Clear_Skies
     highlight! CursorLine          guifg=NONE  guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE  cterm=NONE
     highlight! CursorColumn        guifg=NONE  guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE  cterm=NONE
-endif
-
-"================================================================================
-" CAMPFIRE:
-"================================================================================
-if g:despacio_Campfire
-    let despacio_Hour = strftime("%H")
-    "Day: 7am - 5pm
-    if 7 <= despacio_Hour && despacio_Hour < 17
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Sunset: 5pm - 7pm
-    elseif 17 <= despacio_Hour && despacio_Hour < 19
-        let g:despacio_Sunset = 1
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Twilight: 7pm - 9pm
-    elseif 19 <= despacio_Hour && despacio_Hour < 21
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 1
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Midnight: 9pm - 12am
-    elseif 21 <= despacio_Hour && despacio_Hour < 24
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 1
-        let g:despacio_Pitch = 0
-    "Pitch: 12am - 7am
-    else
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 1
-    endif
 endif
