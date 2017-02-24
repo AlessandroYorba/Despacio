@@ -46,7 +46,7 @@ Sierra
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/22623019/89ebf7e0-eb01-11e6-9afe-5775786d31ac.png)](https://github.com/AlessandroYorba/Sierra)
 
 Sidonia
-[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/22623015/74cf33ae-eb01-11e6-94eb-5467177aaf74.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/23324213/649ab3b4-faa1-11e6-8a91-e6047c62194d.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
 [![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623014/64d330b8-eb01-11e6-8eaa-305ea5b25fcf.png)](https://github.com/AlessandroYorba/Monrovia)
