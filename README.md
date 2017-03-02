@@ -40,9 +40,10 @@ colorscheme despacio
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23393414/85955112-fd37-11e6-8da2-6846dd0b2326.png)
 
 
-:octocat: Credits
+:octocat: Credits and Special Thanks
 -----------------
-[Tertium for UI design](https://github.com/tertium)<br>
+[Tertium](https://github.com/tertium)<br>
+[Tiberiuichim](https://github.com/tiberiuichim)<br>
 
 
 
