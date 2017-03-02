@@ -42,6 +42,8 @@ colorscheme despacio
 
 :octocat: Credits
 -----------------
+[Tertium for UI design](https://github.com/tertium)<br>
+
 
 
 :octopus: Moar Colorschemes
