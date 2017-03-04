@@ -7,11 +7,58 @@
 "      \|_______|\|_______|\_________\|__|     \|__|\|__|\|_______|\|__|\|_______|
 "                         \|_________|
 
+
 " A Terminal Vim colorscheme
 " Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Despacio
-" License:      MIT
 
+" Copyright (c) 2017 Alessandro Yorba
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy
+" of this software and associated documentation files (the "Software"), to deal
+" in the Software without restriction, including without limitation the rights
+" to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+" copies of the Software, and to permit persons to whom the Software is
+" furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in
+" all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+" IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+" FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+" AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+" LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+" OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+" THE SOFTWARE.
+
+"=================================================================================
+" BASIC COLORS:
+"=================================================================================
+"     Foreground   #e4e4e4              |      Selection     #5f8787             |
+"     Background   #303030              |      Selected Text #eeeeee             |
+"     CursorColor  #dfdfaf              |                                        |
+"     Bold         #ffffff              |                                        |
+"     Links        #d75f00              |                                        |
+"=================================================================================
+" ANSI COLORS DESPACIO:
+"=================================================================================
+"---------------------------------------|-----------------------------------------
+"     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
+"---------------------------------------|-----------------------------------------
+"     Black        #303030      0       |      brBlack      #767676      8       |
+"     Red          #d75f5f      1       |      brRed        #d75f5f      9       |
+"     Green        #af875f      2       |      brGreen      #af875f      10      |
+"     Yellow       #ffdfaf      3       |      brYellow     #ffdfaf      11      |
+"     Blue         #5f8787      4       |      brBlue       #5f8787      12      |
+"     Magenta      #ffffdf      5       |      brMagenta    #ffffdf      13      |
+"     Cyan         #d75f00      6       |      brCyan       #d75f00      14      |
+"     White        #e4e4e4      7       |      brWhite      #eeeeee      15      |
+"---------------------------------------|-----------------------------------------
+
+"=================================================================================
+" SETUP:
+"=================================================================================
 
 set background=dark
 
@@ -118,10 +165,10 @@ highlight! SpellBad               guifg=#d75f5f  guibg=NONE     gui=undercurl  c
 highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65    ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
 highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208   ctermbg=NONE  cterm=undercurl
-highlight! CursorLineNr         guifg=#af875f  guibg=NONE     gui=reverse  ctermfg=137   ctermbg=NONE  cterm=reverse
+highlight! CursorLineNr           guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137   ctermbg=NONE  cterm=reverse
 
 highlight! link PmenuThumb        PmenuSbar
-highlight! link Directory		  Special
+highlight! link Directory         Special
 highlight! link MatchParen        Visual
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           String
@@ -160,6 +207,7 @@ if 1
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -184,6 +232,7 @@ if g:despacio_Sunset
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -208,6 +257,7 @@ if g:despacio_Twilight
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -232,6 +282,7 @@ if g:despacio_Midnight
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
@@ -256,6 +307,7 @@ if g:despacio_Pitch
     highlight! link PmenuSel        StatusLine
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
+    highlight! link VimCommentTitle SpecialComment
 endif
 
 "================================================================================
