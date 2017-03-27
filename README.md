@@ -2,7 +2,6 @@ Despacio
 ------
 
 ```VimL
-"light gray background
 colorscheme despacio 
 ```
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24349690/b3e9f37a-1294-11e7-8a8d-d80b0199a6fa.png)
@@ -11,8 +10,6 @@ colorscheme despacio
 -----------------
 [Tertium](https://github.com/tertium)<br>
 [Tiberiuichim](https://github.com/tiberiuichim)<br>
-
-
 
 :octopus: Moar Colorschemes
 -------
