@@ -32,6 +32,10 @@ let g:despacio_Pitch = 1
 colorscheme despacio 
 ```
 
+:crescent_moon: Nightly Build
+----------------------------
+pre-release version [here](https://github.com/AlessandroYorba/Despacio/tree/nightly)
+
 :octocat: Special Thanks
 -----------------
 [Tertium](https://github.com/tertium)<br>
