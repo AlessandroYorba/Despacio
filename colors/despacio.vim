@@ -146,7 +146,7 @@ highlight! String                 guifg=#ffffdf  guibg=NONE     gui=NONE       c
 highlight! PreProc                guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! NonText                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight! Label                  guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
@@ -173,11 +173,12 @@ highlight! link ModeMsg           String
 highlight! link htmlItalic        PreProc
 highlight! link WarningMsg        PreProc
 highlight! link Title             PreProc
-highlight! link Type              PreProc
 highlight! link MoreMsg           Statement
 highlight! link Question          Statement
-highlight! link SpecialKey        Underlined
+highlight! link SpecialKey        NonText
+highlight! link Underlined        NonText
 highlight! link htmlArg           Constant
+highlight! link Type              Function
 highlight! link Identifier        Function
 highlight! link htmlStatement     Function
 highlight! link Operator          Label
@@ -201,7 +202,6 @@ if 1
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
     highlight! link LineNr          StatusLineNC
-    highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
     highlight! link PmenuSel        StatusLine
@@ -228,7 +228,6 @@ if g:despacio_Sunset
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
     highlight! link LineNr          StatusLineNC
-    highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
     highlight! link PmenuSel        StatusLine
@@ -255,7 +254,6 @@ if g:despacio_Twilight
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
     highlight! link LineNr          StatusLineNC
-    highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
     highlight! link PmenuSel        StatusLine
@@ -282,7 +280,6 @@ if g:despacio_Midnight
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
     highlight! link LineNr          StatusLineNC
-    highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
     highlight! link PmenuSel        StatusLine
@@ -309,7 +306,6 @@ if g:despacio_Pitch
     highlight! link TabLine         StatusLineNC
     highlight! link Pmenu           StatusLineNC
     highlight! link LineNr          StatusLineNC
-    highlight! link NonText         Comment
     highlight! link Folded          Comment
     highlight! link TabLineSel      StatusLine
     highlight! link PmenuSel        StatusLine
