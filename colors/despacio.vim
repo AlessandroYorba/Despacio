@@ -142,11 +142,11 @@ endif
 
 highlight! Constant               guifg=#d75f00  guibg=NONE     gui=NONE       ctermfg=166   ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216   ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66   ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
-highlight! NonText                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight! Label                  guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
@@ -175,8 +175,6 @@ highlight! link WarningMsg        PreProc
 highlight! link Title             PreProc
 highlight! link MoreMsg           Statement
 highlight! link Question          Statement
-highlight! link SpecialKey        NonText
-highlight! link Underlined        NonText
 highlight! link htmlArg           Constant
 highlight! link Type              Function
 highlight! link Identifier        Function
@@ -196,6 +194,7 @@ if 1
     highlight! SpecialComment       guifg=#767676  guibg=NONE     gui=reverse  ctermfg=243   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
     highlight! PmenuSbar            guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
+    highlight! NonText              guifg=#5f8787  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
 
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
@@ -208,6 +207,7 @@ if 1
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
     highlight! link VimCommentTitle SpecialComment
+    highlight! link SpecialKey      NonText
 endif
 
 "================================================================================
@@ -222,6 +222,7 @@ if g:despacio_Sunset
     highlight! SpecialComment       guifg=#6c6c6c  guibg=NONE     gui=reverse  ctermfg=242   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
     highlight! PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
+    highlight! NonText              guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
 
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
@@ -234,6 +235,7 @@ if g:despacio_Sunset
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
     highlight! link VimCommentTitle SpecialComment
+    highlight! link SpecialKey      NonText
 endif
 
 "================================================================================
@@ -248,6 +250,7 @@ if g:despacio_Twilight
     highlight! SpecialComment       guifg=#626262  guibg=NONE     gui=reverse  ctermfg=241   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233   cterm=NONE
     highlight! PmenuSbar            guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
+    highlight! NonText              guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE  cterm=NONE
 
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
@@ -260,6 +263,7 @@ if g:despacio_Twilight
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
     highlight! link VimCommentTitle SpecialComment
+    highlight! link SpecialKey      NonText
 endif
 
 "================================================================================
@@ -274,6 +278,7 @@ if g:despacio_Midnight
     highlight! SpecialComment       guifg=#585858  guibg=NONE     gui=reverse  ctermfg=240   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234   cterm=NONE
     highlight! PmenuSbar            guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
+    highlight! NonText              guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE  cterm=NONE
 
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
@@ -286,6 +291,7 @@ if g:despacio_Midnight
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
     highlight! link VimCommentTitle SpecialComment
+    highlight! link SpecialKey      NonText
 endif
 
 "================================================================================
@@ -300,6 +306,7 @@ if g:despacio_Pitch
     highlight! SpecialComment       guifg=#4e4e4e  guibg=NONE     gui=reverse  ctermfg=239   ctermbg=NONE  cterm=reverse
     highlight! TabLineFill          guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
     highlight! PmenuSbar            guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
+    highlight! NonText              guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE  cterm=NONE
 
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       StatusLineNC
@@ -312,6 +319,7 @@ if g:despacio_Pitch
     highlight! link CursorColumn    CursorLine
     highlight! link ColorColumn     CursorLine
     highlight! link VimCommentTitle SpecialComment
+    highlight! link SpecialKey      NonText
 endif
 
 "================================================================================
