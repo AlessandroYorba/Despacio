@@ -173,10 +173,10 @@ highlight! link ModeMsg           String
 highlight! link htmlItalic        PreProc
 highlight! link WarningMsg        PreProc
 highlight! link Title             PreProc
+highlight! link Type              PreProc
 highlight! link MoreMsg           Statement
 highlight! link Question          Statement
 highlight! link htmlArg           Constant
-highlight! link Type              Function
 highlight! link Identifier        Function
 highlight! link htmlStatement     Function
 highlight! link Operator          Label
