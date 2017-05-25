@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/25552452/fded9016-2c4e-11e7-9a6e-ce1c3b0734b0.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26433104/6b11f5f4-40b5-11e7-8387-d44cb427c458.png)
 
 :space_invader: Set Up
 ------
@@ -48,4 +48,3 @@ pre-release version [here](https://github.com/AlessandroYorba/Despacio/tree/nigh
 [Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
 [Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)
-
