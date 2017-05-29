@@ -1,32 +1,32 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26433104/6b11f5f4-40b5-11e7-8387-d44cb427c458.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26562675/59c0023e-447d-11e7-9a24-f7df1954c6a1.png)
 
 :space_invader: Set Up
 ------
 
-###### Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882179/fb92a38c-1df4-11e7-9bce-163e49351936.png)
+###### Grey Background
 ```VimL
 colorscheme despacio 
 ```
 
-###### Dark Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882227/2e58bdb0-1df5-11e7-99a1-b2bcdfc2b9ae.png)
+###### Dark Grey Background
 ```VimL
 let g:despacio_Sunset = 1
 colorscheme despacio 
 ```
 
-###### Darker Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882260/49872cd4-1df5-11e7-8876-6718d91544fe.png)
+###### Darker Grey Background
 ```VimL
 let g:despacio_Twilight = 1
 colorscheme despacio 
 ```
 
-###### Almost Black Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882291/68b21466-1df5-11e7-9777-e526ff4a526a.png)
+###### Almost Black Background
 ```VimL
 let g:despacio_Midnight = 1
 colorscheme despacio 
 ```
 
-###### Black Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24882300/723d933e-1df5-11e7-836d-1225944fa53b.png)
+###### Black Background
 ```VimL
 let g:despacio_Pitch = 1
 colorscheme despacio 
