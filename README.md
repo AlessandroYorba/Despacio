@@ -1,34 +1,40 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26562675/59c0023e-447d-11e7-9a24-f7df1954c6a1.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26614021/a577d0c6-4572-11e7-94e7-9c91aea0cfe8.png)
 
 :space_invader: Set Up
 ------
 
-###### Grey Background
+###### Day Mode - Grey Background
 ```VimL
 colorscheme despacio 
 ```
 
-###### Dark Grey Background
+###### Sunset Mode - Dark Grey Background
 ```VimL
 let g:despacio_Sunset = 1
 colorscheme despacio 
 ```
 
-###### Darker Grey Background
+###### Twilight Mode - Darker Grey Background
 ```VimL
 let g:despacio_Twilight = 1
 colorscheme despacio 
 ```
 
-###### Almost Black Background
+###### Midnight Mode - Almost Black Background
 ```VimL
 let g:despacio_Midnight = 1
 colorscheme despacio 
 ```
 
-###### Black Background
+###### Pitch Mode - Black Background
 ```VimL
 let g:despacio_Pitch = 1
+colorscheme despacio 
+```
+
+######  Campfire Mode - Automatically cycles thru modes depending on time of day
+```VimL
+let g:despacio_Campfire = 1
 colorscheme despacio 
 ```
 
