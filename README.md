@@ -1,12 +1,12 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/27158392-92c88b3c-511b-11e7-86ef-30181b0269b0.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/31866186-9c155ca8-b730-11e7-9ecf-bf6f5b530900.png)
+
+![Screenshot](https://user-images.githubusercontent.com/11221489/31866192-a21ca750-b730-11e7-95e3-1d41a9c57e05.png)
 
 :space_invader: Set Up
 ------
 
-###### Day Mode - Grey Background
-```VimL
-colorscheme despacio 
-```
+###### Modes 
+The default UI for Despacio is a dark grey UI. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available to you. To enable, add one of the following settings to your .vimrc 
 
 ###### Sunset Mode - Dark Grey Background
 ```VimL
