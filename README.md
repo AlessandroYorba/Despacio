@@ -51,7 +51,4 @@ pre-release version [here](https://github.com/AlessandroYorba/Despacio/tree/nigh
 -------
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
-[Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
-[Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Absolute](https://github.com/AlessandroYorba/Absolute)
