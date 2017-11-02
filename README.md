@@ -1,8 +1,6 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/32343410-8cd02c26-bfc0-11e7-9b1b-3f1287899bc0.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/32346311-368e8e20-bfca-11e7-8fa8-5e6cc29a1ca7.png)
 
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866186-9c155ca8-b730-11e7-9ecf-bf6f5b530900.png)
-
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866192-a21ca750-b730-11e7-95e3-1d41a9c57e05.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/32346323-3c676be6-bfca-11e7-9dca-6db1bba74361.png)
 
 :space_invader: Set Up
 ------
