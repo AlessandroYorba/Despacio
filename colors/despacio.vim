@@ -158,8 +158,9 @@ endif
 highlight! Constant               guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight! htmlArg                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 
-highlight! Special                guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
-highlight! Number                 guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
+highlight! Special                guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216   ctermbg=NONE  cterm=NONE
+"highlight! Special                guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
+highlight! Number                 guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216   ctermbg=NONE  cterm=NONE
 
 highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
