@@ -10,8 +10,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
-" UPDATED:      Nov 1st, 2017
-" LATEST CHANGES: Identifier
+" UPDATED:      Nov 4st, 2017
+" LATEST CHANGES: htmlEndTag HL, netrwlist, Directory
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -78,11 +78,11 @@
 "-------------------------------------|-----------------------------------------
 "   Black         #303030      0      |      brBlack       #767676      8      |
 "   Red           #d75f5f      1      |      brRed         #d75f5f      9      |
-"   Green         #af875f      2      |      brGreen       #af875f      10     |
-"   Yellow        #ffdfaf      3      |      brYellow      #ffdfaf      11     |
-"   Blue          #5f8787      4      |      brBlue        #5f8787      12     |
-"   Magenta       #fffedf      5      |      brMagenta     #fffedf      13     |
-"   Cyan          #d75f00      6      |      brCyan        #d75f00      14     |
+"   Green         #5f8787      2      |      brGreen       #5f8787      10     |
+"   Yellow        #dfaf87      3      |      brYellow      #dfaf87      11     |
+"   Blue          #af875f      4      |      brBlue        #af875f      12     |
+"   Magenta       #875f5f      5      |      brMagenta     #875f5f      13     |
+"   Cyan          #87afaf      6      |      brCyan        #87afaf      14     |
 "   White         #e4e4e4      7      |      brWhite       #eeeeee      15     |
 "-------------------------------------|-----------------------------------------
 
@@ -157,9 +157,9 @@ endif
 " COMMON DESPACIO SETTINGS:
 highlight! htmlArg                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 
+highlight! netrwlist              guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight! Number                 guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
-highlight! Directory              guifg=#ffaf87  guibg=NONE     gui=NONE       ctermfg=216   ctermbg=NONE  cterm=NONE
 
 highlight! Underlined             guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
@@ -180,11 +180,13 @@ highlight! cssClassName           guifg=#ff875f  guibg=NONE     gui=NONE       c
 highlight! cssIdentifier          guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 
 highlight! Statement              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
+highlight! Directory              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! Question               guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! SpecialComment         guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137   ctermbg=NONE  cterm=reverse
 
 highlight! Function               guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
+highlight! htmlEndTag             guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight! htmlStatement          guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight! cssTagName             guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
