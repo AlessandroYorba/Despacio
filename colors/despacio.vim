@@ -11,7 +11,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 " UPDATED:      Nov 6th, 2017
-" LATEST CHANGES: SpecialComments
+" LATEST CHANGES: Search HL
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -206,7 +206,7 @@ highlight htmlArg                guifg=#af5f00  guibg=NONE     gui=NONE       ct
 highlight Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108   ctermbg=NONE  cterm=NONE
 highlight Folded                 guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187   ctermbg=NONE  cterm=NONE
-highlight Search                 guifg=#87afaf  guibg=#5f8787  gui=NONE       ctermfg=235   ctermbg=109    cterm=NONE
+highlight Search                 guifg=#262626  guibg=#ffffdf  gui=NONE       ctermfg=235   ctermbg=230    cterm=NONE
 
 highlight SpellBad               guifg=#d75f5f  guibg=NONE     gui=undercurl  ctermfg=167   ctermbg=NONE  cterm=undercurl
 highlight SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65    ctermbg=NONE  cterm=undercurl
