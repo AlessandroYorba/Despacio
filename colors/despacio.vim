@@ -11,7 +11,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 " UPDATED:      Nov 6th, 2017
-" LATEST CHANGES: Search HL
+" LATEST CHANGES: Search WildMenu Visual
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -194,19 +194,22 @@ highlight Identifier             guifg=#ffdfaf  guibg=NONE     gui=NONE       ct
 highlight htmlStatement          guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight cssTagName             guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 
-highlight Visual                 guifg=#262626  guibg=#5f8787  gui=NONE       ctermfg=235   ctermbg=66    cterm=NONE
-highlight MatchParen             guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255   ctermbg=66    cterm=NONE
-highlight WildMenu               guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255   ctermbg=66    cterm=NONE
+"highlight MatchParen             guifg=#000000  guibg=#5f8787  gui=NONE       ctermfg=16   ctermbg=109    cterm=NONE
+highlight MatchParen                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
+highlight Visual                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
+highlight WildMenu               guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
+highlight Search                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
+"highlight WildMenu               guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255   ctermbg=66    cterm=NONE
 
 highlight VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249   ctermbg=NONE  cterm=reverse
 highlight SpecialComment         guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249   ctermbg=NONE  cterm=reverse
 
 highlight CursorLineNr           guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137   ctermbg=NONE  cterm=reverse
+highlight Cursor                 guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231
 highlight htmlArg                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108   ctermbg=NONE  cterm=NONE
 highlight Folded                 guifg=#dfdfaf  guibg=NONE     gui=NONE       ctermfg=187   ctermbg=NONE  cterm=NONE
-highlight Search                 guifg=#262626  guibg=#ffffdf  gui=NONE       ctermfg=235   ctermbg=230    cterm=NONE
 
 highlight SpellBad               guifg=#d75f5f  guibg=NONE     gui=undercurl  ctermfg=167   ctermbg=NONE  cterm=undercurl
 highlight SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65    ctermbg=NONE  cterm=undercurl
