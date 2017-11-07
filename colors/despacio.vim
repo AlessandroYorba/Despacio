@@ -11,7 +11,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 " UPDATED:      Nov 6th, 2017
-" LATEST CHANGES: Search WildMenu Visual
+" LATEST CHANGES: VertSplit HL
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -194,18 +194,16 @@ highlight Identifier             guifg=#ffdfaf  guibg=NONE     gui=NONE       ct
 highlight htmlStatement          guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight cssTagName             guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 
-"highlight MatchParen             guifg=#000000  guibg=#5f8787  gui=NONE       ctermfg=16   ctermbg=109    cterm=NONE
-highlight MatchParen                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
+highlight MatchParen             guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
 highlight Visual                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
 highlight WildMenu               guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
 highlight Search                 guifg=#87afaf    guibg=NONE  gui=reverse       ctermfg=109   ctermbg=NONE    cterm=reverse
-"highlight WildMenu               guifg=#eeeeee  guibg=#5f8787  gui=NONE       ctermfg=255   ctermbg=66    cterm=NONE
 
 highlight VimCommentTitle        guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249   ctermbg=NONE  cterm=reverse
 highlight SpecialComment         guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249   ctermbg=NONE  cterm=reverse
 
 highlight CursorLineNr           guifg=#af875f  guibg=NONE     gui=reverse    ctermfg=137   ctermbg=NONE  cterm=reverse
-highlight Cursor                 guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231
+highlight Cursor                 guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231   cterm=NONE
 highlight htmlArg                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight Error                  guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108   ctermbg=NONE  cterm=NONE
@@ -236,8 +234,7 @@ if 1
     highlight PmenuSel             guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
 
     highlight StatusLineNC         guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
-    "highlight VertSplit            guifg=#767676  guibg=#303030  gui=NONE     ctermfg=243   ctermbg=236   cterm=NONE
-    highlight VertSplit            guifg=#262626  guibg=#303030  gui=NONE     ctermfg=235   ctermbg=236   cterm=NONE
+    highlight VertSplit            guifg=#444444  guibg=#303030  gui=NONE     ctermfg=238   ctermbg=236   cterm=NONE
     highlight TabLine              guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
     highlight Pmenu                guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
     highlight LineNr               guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
@@ -267,8 +264,7 @@ if g:despacio_Sunset
     highlight PmenuSel             guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
 
     highlight StatusLineNC         guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
-    "highlight! VertSplit            guifg=#6c6c6c  guibg=#262626  gui=NONE     ctermfg=242   ctermbg=235   cterm=NONE
-    highlight VertSplit         guifg=#1c1c1c  guibg=#262626  gui=NONE     ctermfg=234   ctermbg=235   cterm=NONE
+    highlight VertSplit            guifg=#3a3a3a  guibg=#262626  gui=NONE     ctermfg=237   ctermbg=235   cterm=NONE
     highlight TabLine              guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
     highlight Pmenu                guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
     highlight LineNr               guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
@@ -297,8 +293,7 @@ if g:despacio_Twilight
     highlight PmenuSel             guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight StatusLineNC         guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
-    "highlight VertSplit            guifg=#626262  guibg=#1c1c1c  gui=NONE     ctermfg=241   ctermbg=234   cterm=NONE
-    highlight VertSplit            guifg=#121212  guibg=#1c1c1c  gui=NONE     ctermfg=233   ctermbg=234   cterm=NONE
+    highlight VertSplit            guifg=#303030  guibg=#1c1c1c  gui=NONE     ctermfg=236   ctermbg=234   cterm=NONE
     highlight TabLine              guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
     highlight Pmenu                guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
     highlight LineNr               guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
@@ -328,8 +323,7 @@ if g:despacio_Midnight
     highlight PmenuSel             guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
 
     highlight StatusLineNC         guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
-    "highlight VertSplit            guifg=#585858  guibg=#121212  gui=none     ctermfg=240   ctermbg=233   cterm=none
-    highlight VertSplit            guifg=#1c1c1c  guibg=#121212  gui=NONE     ctermfg=234   ctermbg=233   cterm=NONE
+    highlight VertSplit            guifg=#262626  guibg=#121212  gui=NONE     ctermfg=235   ctermbg=233   cterm=NONE
     highlight TabLine              guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
     highlight Pmenu                guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
     highlight LineNr               guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
@@ -359,7 +353,7 @@ if g:despacio_Pitch
     highlight PmenuSel             guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight StatusLineNC         guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
-    highlight VertSplit            guifg=#121212  guibg=#080808  gui=NONE     ctermfg=233   ctermbg=232   cterm=NONE
+    highlight VertSplit            guifg=#1c1c1c  guibg=#080808  gui=NONE     ctermfg=234   ctermbg=232   cterm=NONE
     highlight TabLine              guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight Pmenu                guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight LineNr               guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
