@@ -11,7 +11,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 " UPDATED:      Nov 6th, 2017
-" LATEST CHANGES: VertSplit HL
+" LATEST CHANGES: Removed Campfire
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -50,9 +50,6 @@
 "   let g:despacio_Pitch = 1
 "   colorscheme despacio
 
-"   "Automatically cycles thru modes depending on time of night
-"   let g:despacio_Campfire = 1
-"   colorscheme despacio
 
 " MATCHING TERMINAL:
 " Other themes for despacio: https://github.com/AlessandroYorba/Despacio/terminal_colors
@@ -113,46 +110,6 @@ if !exists("g:despacio_Pitch")
     let g:despacio_Pitch = 0
 endif
 
-if !exists("g:despacio_Campfire")
-    let g:despacio_Campfire = 0
-endif
-
-
-" CAMPFIRE:
-if g:despacio_Campfire
-    let despacio_Hour = strftime("%H")
-    "Day: 7am - 5pm
-    if 7 <= despacio_Hour && despacio_Hour < 17
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Sunset: 5pm - 7pm
-    elseif 17 <= despacio_Hour && despacio_Hour < 19
-        let g:despacio_Sunset = 1
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Twilight: 7pm - 9pm
-    elseif 19 <= despacio_Hour && despacio_Hour < 21
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 1
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 0
-    "Midnight: 9pm - 12am
-    elseif 21 <= despacio_Hour && despacio_Hour < 24
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 1
-        let g:despacio_Pitch = 0
-    "Pitch: 12am - 7am
-    else
-        let g:despacio_Sunset = 0
-        let g:despacio_Twilight = 0
-        let g:despacio_Midnight = 0
-        let g:despacio_Pitch = 1
-    endif
-endif
 
 " COMMON DESPACIO SETTINGS:
 highlight netrwlist              guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE

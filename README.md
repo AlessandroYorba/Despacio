@@ -32,15 +32,9 @@ let g:despacio_Pitch = 1
 colorscheme despacio 
 ```
 
-######  Campfire Mode - Automatically cycles thru modes depending on time of day
-```VimL
-let g:despacio_Campfire = 1
-colorscheme despacio 
-```
-
 :crescent_moon: Nightly Build
 ----------------------------
-pre-release version [here](https://github.com/AlessandroYorba/Despacio/tree/nightly)
+Development build [here](https://github.com/AlessandroYorba/Despacio/tree/nightly)
 
 :octocat: Special Thanks
 -----------------
