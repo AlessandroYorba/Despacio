@@ -1,7 +1,3 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/32346311-368e8e20-bfca-11e7-8fa8-5e6cc29a1ca7.png)
-
-![Screenshot](https://user-images.githubusercontent.com/11221489/32346323-3c676be6-bfca-11e7-9dca-6db1bba74361.png)
-
 :space_invader: Set Up
 ------
 
@@ -46,3 +42,4 @@ Development build [here](https://github.com/AlessandroYorba/Despacio/tree/nightl
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
+[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
