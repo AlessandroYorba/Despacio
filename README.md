@@ -1,31 +1,34 @@
-![screenshot](https://user-images.githubusercontent.com/11221489/33523843-8636cea2-d7c5-11e7-8da1-be0389916869.png)
+![screenshot](https://user-images.githubusercontent.com/11221489/33584154-db74655c-d912-11e7-9742-dabb563079ba.png)
 
 :space_invader: Set Up
 ------
+The default UI for Despacio is grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Despacio/issues/1)
 
-###### Modes 
-The default UI for Despacio is a dark grey UI. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available to you. To enable, add one of the following settings to your .vimrc 
+###### [Grey](https://user-images.githubusercontent.com/11221489/33584154-db74655c-d912-11e7-9742-dabb563079ba.png)
+```
+colorscheme despacio
+```
 
-###### Sunset Mode - Dark Grey Background
-```VimL
+###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33584181-08742092-d913-11e7-956e-43fc924d2495.png)
+```
 let g:despacio_Sunset = 1
 colorscheme despacio 
 ```
 
-###### Twilight Mode - Darker Grey Background
-```VimL
+###### [Darkest Grey](https://user-images.githubusercontent.com/11221489/33584196-1f75e3a2-d913-11e7-9a66-1f39c3de4a4e.png)
+```
 let g:despacio_Twilight = 1
 colorscheme despacio 
 ```
 
-###### Midnight Mode - Almost Black Background
-```VimL
+###### [Almost Black](https://user-images.githubusercontent.com/11221489/33584220-393f7ca8-d913-11e7-97f5-c45d66dcb672.png)
+```
 let g:despacio_Midnight = 1
 colorscheme despacio 
 ```
 
-###### Pitch Mode - Black Background
-```VimL
+###### [Black](https://user-images.githubusercontent.com/11221489/33584251-59bf72a8-d913-11e7-9b77-f95c4b4755c2.png)
+```
 let g:despacio_Pitch = 1
 colorscheme despacio 
 ```
