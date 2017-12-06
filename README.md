@@ -1,5 +1,7 @@
 ![screenshot](https://user-images.githubusercontent.com/11221489/33584154-db74655c-d912-11e7-9742-dabb563079ba.png)
 
+![screenshot](https://user-images.githubusercontent.com/11221489/33584251-59bf72a8-d913-11e7-9b77-f95c4b4755c2.png)
+
 :space_invader: Set Up
 ------
 The default UI for Despacio is grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Despacio/issues/1)
