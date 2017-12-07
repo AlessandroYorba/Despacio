@@ -12,7 +12,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
 " UPDATED:      Dec 6, 2017
-" LATEST CHANGES: new normal and strings
+" LATEST CHANGES: Conditional and Comments for Pitch
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -53,7 +53,7 @@
 "-------------------------------------|-----------------------------------------
 "   BASIC         HEX                 |     BASIC         HEX                  |
 "-------------------------------------|-----------------------------------------
-"   Foreground    #e4e4e4             |     Selection     #5f8787              |
+"   Foreground    #ffffdf             |     Selection     #5f8787              |
 "   Background    #303030             |     Selected Text #eeeeee              |
 "   Bold          #ffffff             |                                        |
 "   Links         #d75f00             |                                        |
@@ -76,7 +76,7 @@
 "   Blue          #af875f      4      |      brBlue        #af875f      12     |
 "   Magenta       #875f5f      5      |      brMagenta     #875f5f      13     |
 "   Cyan          #87afaf      6      |      brCyan        #87afaf      14     |
-"   White         #e4e4e4      7      |      brWhite       #eeeeee      15     |
+"   White         #ffffdf      7      |      brWhite       #ffffdf      15     |
 "-------------------------------------|-----------------------------------------
 "
 " DESPACIO:
@@ -114,13 +114,12 @@ highlight Identifier            guifg=#ffdfaf  guibg=NONE     gui=NONE       cte
 highlight Statement             guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight Constant              guifg=#d78700  guibg=NONE     gui=NONE       ctermfg=172   ctermbg=NONE  cterm=NONE
 highlight Type                  guifg=#d78700  guibg=NONE     gui=NONE       ctermfg=172   ctermbg=NONE  cterm=NONE
-"highlight String                guifg=#ffffdf  guibg=NONE     gui=NONE       ctermfg=230   ctermbg=NONE  cterm=NONE
 highlight String                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight Special               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight Conditional           guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight Operator              guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight Title                 guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173   ctermbg=NONE  cterm=NONE
 highlight StorageClass          guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
-"highlight htmlStatement         guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight htmlItalic            guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 highlight htmlArg               guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight htmlEndTag            guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
@@ -167,7 +166,6 @@ highlight SignColumn            guifg=#87af87  guibg=NONE     gui=NONE       cte
 " DAY:
 if 1
     "COLORS
-    "highlight Normal            guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
     highlight Normal            guifg=#ffffdf  guibg=#303030  gui=NONE     ctermfg=230   ctermbg=236   cterm=NONE
     highlight Comment           guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
 
@@ -195,7 +193,6 @@ endif
 " SUNSET:
 if g:despacio_Sunset
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#262626  gui=NONE     ctermfg=188   ctermbg=235   cterm=NONE
     highlight Normal            guifg=#ffffdf  guibg=#262626  gui=NONE     ctermfg=230   ctermbg=235   cterm=NONE
     highlight Comment           guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
 
@@ -222,7 +219,6 @@ endif
 " TWILIGHT:
 if g:despacio_Twilight
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE     ctermfg=188   ctermbg=234   cterm=NONE
     highlight Normal            guifg=#ffffdf  guibg=#1c1c1c  gui=NONE     ctermfg=230   ctermbg=234   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
@@ -250,7 +246,6 @@ endif
 " MIDNIGHT:
 if g:despacio_Midnight
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
     highlight Normal            guifg=#ffffdf  guibg=#121212  gui=NONE     ctermfg=230   ctermbg=233   cterm=NONE
     highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
 
@@ -278,20 +273,19 @@ endif
 " PITCH:
 if g:despacio_Pitch
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
     highlight Normal            guifg=#ffffdf  guibg=#080808  gui=NONE     ctermfg=230   ctermbg=232   cterm=NONE
-    highlight Comment           guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
     highlight StatusLineNC      guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight Pmenu             guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
-    highlight PmenuSel          guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
+    highlight PmenuSel          guifg=#eeeeee  guibg=#5f8787  gui=none     ctermfg=255   ctermbg=66   cterm=none
     highlight PmenuSbar         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight PmenuThumb        guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight TabLine           guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
     highlight TabLineSel        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
-    highlight TabLineFill       guifg=NONE     guibg=NONE     gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
+    highlight TabLineFill       guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=235   cterm=NONE
     highlight CursorLine        guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16    cterm=NONE
     highlight CursorColumn      guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16    cterm=NONE
     highlight ColorColumn       guifg=NONE     guibg=#000000  gui=NONE     ctermfg=NONE  ctermbg=16    cterm=NONE
