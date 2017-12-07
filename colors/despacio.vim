@@ -53,7 +53,7 @@
 "-------------------------------------|-----------------------------------------
 "   BASIC         HEX                 |     BASIC         HEX                  |
 "-------------------------------------|-----------------------------------------
-"   Foreground    #dfdfdf             |     Selection     #5f8787              |
+"   Foreground    #e4e4e4             |     Selection     #5f8787              |
 "   Background    #303030             |     Selected Text #eeeeee              |
 "   Bold          #ffffff             |                                        |
 "   Links         #d75f00             |                                        |
@@ -164,7 +164,7 @@ highlight SignColumn            guifg=#87af87  guibg=NONE     gui=NONE       cte
 " DAY:
 if 1
     "COLORS
-    highlight Normal            guifg=#dfdfdf  guibg=#303030  gui=NONE     ctermfg=188   ctermbg=236   cterm=NONE
+    highlight Normal            guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
     highlight Comment           guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
