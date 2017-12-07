@@ -11,8 +11,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
-" UPDATED:      Dec 6, 2017
-" LATEST CHANGES: Removed cssTagName
+" UPDATED:      Dec 7, 2017
+" LATEST CHANGES: Normal Changed, Identifier removed
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -53,7 +53,7 @@
 "-------------------------------------|-----------------------------------------
 "   BASIC         HEX                 |     BASIC         HEX                  |
 "-------------------------------------|-----------------------------------------
-"   Foreground    #e4e4e4             |     Selection     #5f8787              |
+"   Foreground    #ffffdf             |     Selection     #5f8787              |
 "   Background    #303030             |     Selected Text #eeeeee              |
 "   Bold          #ffffff             |                                        |
 "   Links         #d75f00             |                                        |
@@ -76,7 +76,7 @@
 "   Blue          #af875f      4      |      brBlue        #af875f      12     |
 "   Magenta       #875f5f      5      |      brMagenta     #875f5f      13     |
 "   Cyan          #87afaf      6      |      brCyan        #87afaf      14     |
-"   White         #dfdfdf      7      |      brWhite       #dfdfdf      15     |
+"   White         #ffffdf      7      |      brWhite       #ffffdf      15     |
 "-------------------------------------|-----------------------------------------
 "
 " DESPACIO:
@@ -110,7 +110,7 @@ endif
 "COMMON DESPACIO SETTINGS
 highlight PreProc               guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173   ctermbg=NONE  cterm=NONE
 highlight Function              guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
-highlight Identifier            guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
+highlight Identifier            guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight Statement             guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight Constant              guifg=#d78700  guibg=NONE     gui=NONE       ctermfg=172   ctermbg=NONE  cterm=NONE
 highlight Type                  guifg=#d78700  guibg=NONE     gui=NONE       ctermfg=172   ctermbg=NONE  cterm=NONE
@@ -164,7 +164,7 @@ highlight SignColumn            guifg=#87af87  guibg=NONE     gui=NONE       cte
 " DAY:
 if 1
     "COLORS
-    highlight Normal            guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
+    highlight Normal            guifg=#ffffdf  guibg=#303030  gui=NONE     ctermfg=230   ctermbg=236   cterm=NONE
     highlight Comment           guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -191,7 +191,7 @@ endif
 " SUNSET:
 if g:despacio_Sunset
     "COLORS
-    highlight Normal            guifg=#dfdfdf  guibg=#262626  gui=NONE     ctermfg=188   ctermbg=235   cterm=NONE
+    highlight Normal            guifg=#ffffdf  guibg=#262626  gui=NONE     ctermfg=230   ctermbg=235   cterm=NONE
     highlight Comment           guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -217,7 +217,7 @@ endif
 " TWILIGHT:
 if g:despacio_Twilight
     "COLORS
-    highlight Normal            guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE     ctermfg=188   ctermbg=234   cterm=NONE
+    highlight Normal            guifg=#ffffdf  guibg=#1c1c1c  gui=NONE     ctermfg=230   ctermbg=234   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -244,7 +244,7 @@ endif
 " MIDNIGHT:
 if g:despacio_Midnight
     "COLORS
-    highlight Normal            guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
+    highlight Normal            guifg=#ffffdf  guibg=#121212  gui=NONE     ctermfg=230   ctermbg=233   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -271,7 +271,7 @@ endif
 " PITCH:
 if g:despacio_Pitch
     "COLORS
-    highlight Normal            guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
+    highlight Normal            guifg=#ffffdf  guibg=#080808  gui=NONE     ctermfg=230   ctermbg=232   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
