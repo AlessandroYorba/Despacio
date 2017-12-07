@@ -12,7 +12,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
 " UPDATED:      Dec 6, 2017
-" LATEST CHANGES: Removed htmlArg
+" LATEST CHANGES: Removed cssTagName
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -122,10 +122,9 @@ highlight Title                 guifg=#d7875f  guibg=NONE     gui=NONE       cte
 highlight StorageClass          guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight htmlItalic            guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 highlight htmlEndTag            guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
-highlight cssTagName            guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
+highlight cssTagName            guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight cssClassName          guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
 highlight cssIdentifier         guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
-highlight Number                guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 
 "DIFF
 highlight DiffAdd               guifg=#ffdfaf  guibg=NONE     gui=reverse    ctermfg=223   ctermbg=NONE  cterm=reverse
