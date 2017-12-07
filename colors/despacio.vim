@@ -12,7 +12,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
 " UPDATED:      Dec 6, 2017
-" LATEST CHANGES: Conditional and Comments for Pitch
+" LATEST CHANGES: Brighter Comments for Midnight and Pitch
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -247,7 +247,7 @@ endif
 if g:despacio_Midnight
     "COLORS
     highlight Normal            guifg=#ffffdf  guibg=#121212  gui=NONE     ctermfg=230   ctermbg=233   cterm=NONE
-    highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
@@ -274,7 +274,7 @@ endif
 if g:despacio_Pitch
     "COLORS
     highlight Normal            guifg=#ffffdf  guibg=#080808  gui=NONE     ctermfg=230   ctermbg=232   cterm=NONE
-    highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
