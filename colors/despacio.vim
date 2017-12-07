@@ -12,7 +12,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
 " UPDATED:      Dec 6, 2017
-" LATEST CHANGES: Brighter Comments for Midnight and Pitch
+" LATEST CHANGES: Removed htmlArg
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -121,7 +121,6 @@ highlight Operator              guifg=#dfaf87  guibg=NONE     gui=NONE       cte
 highlight Title                 guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173   ctermbg=NONE  cterm=NONE
 highlight StorageClass          guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight htmlItalic            guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
-highlight htmlArg               guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight htmlEndTag            guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight cssTagName            guifg=#ffdfaf  guibg=NONE     gui=NONE       ctermfg=223   ctermbg=NONE  cterm=NONE
 highlight cssClassName          guifg=#ff875f  guibg=NONE     gui=NONE       ctermfg=209   ctermbg=NONE  cterm=NONE
