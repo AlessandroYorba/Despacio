@@ -12,7 +12,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
 " UPDATED:      Dec 13, 2017
-" LATEST CHANGES: Diffs
+" LATEST CHANGES: Search
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -147,7 +147,7 @@ highlight FoldColumn            guifg=#87afaf  guibg=NONE     gui=NONE       cte
 highlight Todo                  guifg=#d78700  guibg=NONE     gui=reverse    ctermfg=172   ctermbg=NONE  cterm=reverse
 highlight Visual                guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
 highlight Question              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
-highlight Search                guifg=#ffdf00  guibg=NONE     gui=reverse    ctermfg=220   ctermbg=NONE  cterm=reverse
+highlight Search                guifg=#dfdf00  guibg=NONE     gui=reverse    ctermfg=184   ctermbg=NONE  cterm=reverse
 highlight MatchParen            guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
 highlight Error                 guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight ErrorMsg              guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
