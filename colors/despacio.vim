@@ -11,8 +11,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Despacio
 "
-" UPDATED:      Dec 13, 2017
-" LATEST CHANGES: Underlined
+" UPDATED:      Dec 16, 2017
+" LATEST CHANGES: Search
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 "
@@ -147,7 +147,7 @@ highlight FoldColumn            guifg=#87afaf  guibg=NONE     gui=NONE       cte
 highlight Todo                  guifg=#d78700  guibg=NONE     gui=reverse    ctermfg=172   ctermbg=NONE  cterm=reverse
 highlight Visual                guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
 highlight Question              guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
-highlight Search                guifg=#dfdf00  guibg=NONE     gui=reverse    ctermfg=184   ctermbg=NONE  cterm=reverse
+highlight Search                guifg=#dfaf00  guibg=NONE     gui=reverse    ctermfg=178   ctermbg=NONE  cterm=reverse
 highlight MatchParen            guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE  cterm=reverse
 highlight Error                 guifg=#d75f5f  guibg=#121212  gui=reverse    ctermfg=167   ctermbg=233   cterm=reverse
 highlight ErrorMsg              guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167   ctermbg=NONE  cterm=NONE
@@ -295,7 +295,7 @@ if g:despacio_Pitch
 endif
 
 " LICENSE:
-" Copyright (c) 2017 Alessandro Yorba
+" Copyright (c) 2018 Alessandro Yorba
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
