@@ -7,18 +7,19 @@
 colorscheme despacio
 ```
 
+:octocat: Special Thanks 
+-----------------
+[Tertium](https://github.com/tertium) for design contributions<br>
+[Tiberiuichim](https://github.com/tiberiuichim) for design contributions<br>
+
+
 :crescent_moon: Nightly Build
 ----------------------------
 Development build [here](https://github.com/AlessandroYorba/Despacio/tree/nightly)
 
-:octocat: Special Thanks
------------------
-[Tertium](https://github.com/tertium)<br>
-[Tiberiuichim](https://github.com/tiberiuichim)<br>
 
 :octopus: Moar Colorschemes
 -------
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
