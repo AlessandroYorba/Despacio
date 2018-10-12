@@ -15,25 +15,25 @@ colorscheme despacio
 ------
 
 ###### [Dark Grey Background]()
-```
+```VimL
 let g:despacio_Sunset = 1
 colorscheme despacio
 ```
 
 ###### [Even Darker Grey Background]()
-```
+```VimL
 let g:despacio_Twilight = 1
 colorscheme despacio
 ```
 
 ###### [Almost Black Background]()
-```
+```VimL
 let g:despacio_Midnight = 1
 colorscheme despacio
 ```
 
 ###### [Black Background]()
-```
+```VimL
 let g:despacio_Pitch = 1
 colorscheme despacio
 ```
