@@ -11,13 +11,41 @@
 colorscheme despacio
 ```
 
+:milky_way: Change Background Colors
+------
+
+###### [Dark Grey Background]()
+```
+let g:despacio_Sunset = 1
+colorscheme despacio
+```
+
+###### [Even Darker Grey Background]()
+```
+let g:despacio_Twilight = 1
+colorscheme despacio
+```
+
+###### [Almost Black Background]()
+```
+let g:despacio_Midnight = 1
+colorscheme despacio
+```
+
+###### [Black Background]()
+```
+let g:despacio_Pitch = 1
+colorscheme despacio
+```
+
+
 :octocat: Special Thanks 
 -----------------
 [Tertium](https://github.com/tertium) for design contributions<br>
 [Tiberiuichim](https://github.com/tiberiuichim) for design contributions<br>
 
 
-:crescent_moon: Nightly Build
+:crescent_moon: Development Build
 ----------------------------
 Development build [here](https://github.com/AlessandroYorba/Despacio/tree/nightly)
 
