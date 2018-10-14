@@ -14,32 +14,32 @@ colorscheme despacio
 :milky_way: Change Background Colors
 ------
 
-###### [Dark Grey Background]()
+###### Dark Grey Background
 ```VimL
 let g:despacio_Sunset = 1
 colorscheme despacio
 ```
 
-###### [Even Darker Grey Background]()
+###### Even Darker Grey Background
 ```VimL
 let g:despacio_Twilight = 1
 colorscheme despacio
 ```
 
-###### [Almost Black Background]()
+###### Almost Black Background
 ```VimL
 let g:despacio_Midnight = 1
 colorscheme despacio
 ```
 
-###### [Black Background]()
+###### Black Background
 ```VimL
 let g:despacio_Pitch = 1
 colorscheme despacio
 ```
 
 
-:octocat: Special Thanks 
+:octocat: Special Thanks
 -----------------
 [Tertium](https://github.com/tertium) for design contributions<br>
 [Tiberiuichim](https://github.com/tiberiuichim) for design contributions<br>
