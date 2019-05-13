@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Despacio
 "
 "UPDATED: May 12, 2019
-"CHANGES: Changed Normal foreground from cterm 230 to 187
+"CHANGES: Changed Normal foreground back to cterm 230
 "
 "SUPPORT:
 "256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -113,8 +113,7 @@ highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE 
 "DEFAULT
 if 1
 	"COLORS
-	"highlight Normal guifg=#ffffdf guibg=#303030 gui=NONE ctermfg=230 ctermbg=236 cterm=NONE
-	highlight Normal guifg=#dfdfaf guibg=#303030 gui=NONE ctermfg=187 ctermbg=236 cterm=NONE
+	highlight Normal guifg=#ffffdf guibg=#303030 gui=NONE ctermfg=230 ctermbg=236 cterm=NONE
 	highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -142,8 +141,7 @@ endif
 "DARKER GRAY
 if g:despacio_Sunset
 	"COLORS
-	"highlight Normal guifg=#ffffdf guibg=#262626 gui=NONE ctermfg=230 ctermbg=235 cterm=NONE
-	highlight Normal guifg=#dfdfaf guibg=#262626 gui=NONE ctermfg=187 ctermbg=235 cterm=NONE
+	highlight Normal guifg=#ffffdf guibg=#262626 gui=NONE ctermfg=230 ctermbg=235 cterm=NONE
 	highlight Comment guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -171,8 +169,7 @@ endif
 "DARKEST GRAY
 if g:despacio_Twilight
 	"COLORS
-	"highlight Normal guifg=#ffffdf guibg=#1c1c1c gui=NONE ctermfg=230 ctermbg=234 cterm=NONE
-	highlight Normal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
+	highlight Normal guifg=#ffffdf guibg=#1c1c1c gui=NONE ctermfg=230 ctermbg=234 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -200,8 +197,7 @@ endif
 "DARKEST GRAY
 if g:despacio_Midnight
 	"COLORS
-	"highlight Normal guifg=#ffffdf guibg=#121212 gui=NONE ctermfg=230 ctermbg=233 cterm=NONE
-	highlight Normal guifg=#dfdfaf guibg=#121212 gui=NONE ctermfg=187 ctermbg=233 cterm=NONE
+	highlight Normal guifg=#ffffdf guibg=#121212 gui=NONE ctermfg=230 ctermbg=233 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -229,8 +225,7 @@ endif
 "ALMOST BLACK
 if g:despacio_Pitch
 	"COLORS
-	"highlight Normal guifg=#ffffdf guibg=#080808 gui=NONE ctermfg=230 ctermbg=232 cterm=NONE
-	highlight Normal guifg=#dfdfaf guibg=#080808 gui=NONE ctermfg=187 ctermbg=232 cterm=NONE
+	highlight Normal guifg=#ffffdf guibg=#080808 gui=NONE ctermfg=230 ctermbg=232 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
