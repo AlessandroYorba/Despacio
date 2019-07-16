@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Despacio
 "
-"UPDATED: May 12, 2019
-"CHANGES: Changed Normal foreground back to cterm 230
+"UPDATED: July 15, 2019
+"CHANGES: Added More Diff colors and Vimscript support from Aramis
 "
 "SUPPORT:
 "256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -75,11 +75,31 @@ highlight cssTagName guifg=#af875f guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE 
 highlight cssClassName guifg=#ff875f guibg=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE
 highlight cssIdentifier guifg=#ff875f guibg=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE
 
+" VIMSCRIPT
+highlight link vimAutoCmdSfxList Type
+highlight link vimAutoEventList Identifier
+highlight link vimCmdSep Special
+highlight link vimCommentTitle SpecialComment
+highlight link vimFunction Function
+highlight link vimUserFunc Function
+
 "DIFF
 highlight DiffAdd guifg=#87afaf guibg=NONE gui=reverse ctermfg=109 ctermbg=NONE cterm=reverse
 highlight DiffText guifg=#87afaf guibg=NONE gui=reverse ctermfg=109 ctermbg=NONE cterm=reverse
 highlight DiffChange guifg=#5f8787 guibg=NONE gui=reverse ctermfg=66 ctermbg=NONE cterm=reverse
 highlight DiffDelete guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
+highlight link diffAdded DiffAdd
+highlight link diffBDiffer WarningMsg
+highlight link diffChanged DiffChange
+highlight link diffCommon WarningMsg
+highlight link diffDiffer WarningMsg
+highlight link diffFile Directory
+highlight link diffIdentical WarningMsg
+highlight link diffIndexLine Number
+highlight link diffIsA WarningMsg
+highlight link diffNoEOL WarningMsg
+highlight link diffOnly WarningMsg
+highlight link diffRemoved DiffDelete
 
 "SPELLING
 highlight SpellBad guifg=#d75f5f guibg=NONE gui=undercurl ctermfg=167 ctermbg=NONE cterm=undercurl
@@ -109,6 +129,7 @@ highlight CursorLineNr guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=
 highlight WildMenu guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
+
 
 "DEFAULT
 if 1
